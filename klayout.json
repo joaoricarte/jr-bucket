@@ -8,6 +8,5 @@
     "hash": "md5:414e265f014c2a9f7a9a74f51de56931",
     "extract_dir": "klayout-0.27.4-win64"
     "extract_to": ""
-    "bin": "klayout_app.exe",
-    }
+    "bin": "klayout_app.exe"
 }
