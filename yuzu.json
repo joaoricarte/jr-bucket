@@ -4,7 +4,7 @@
     "homepage": "https://github.com/pineappleEA/pineapple-src",
     "checkver": "github",
     "license": "GPLv2",
-    "url": "https://github.com/pineappleEA/pineapple-src/releases/latest",
+    "url": "https://github.com/pineappleEA/pineapple-src/releases/download/$version/Windows-Yuzu-$version.7z",
     "extract_dir": "yuzu-windows-msvc-early-access",
     "extract_to": "",
     "bin": "yuzu.exe",
