@@ -19,6 +19,6 @@
     ],
     "persist": "user",
     "autoupdate": {
-    "url": "https://github.com/pineappleEA/pineapple-src/releases/download/$version/Windows-Yuzu-EA-$version.7z"
+    "url": "https://github.com/pineappleEA/pineapple-src/releases/download/EA-$version/Windows-Yuzu-EA-$version.7z"
     }
 }
