@@ -5,9 +5,9 @@
     "license": "GPL",
     "checkver": {
         "url": "https://www.klayout.de/build.html",
-        "re": "klayout-(?<version>[\\d.]+)-win64-install.exe"
+        "re": "klayout-(?<version>[\\d.]+)-win64.zip"
     },
-    "url": "https://www.klayout.org/downloads/Windows/klayout-0.27.3-win64-install.exe",
+    "url": "https://www.klayout.org/downloads/Windows/klayout-0.27.3-win64.zip",
     "hash": "",
     "extract_dir": "klayout-$version-win64",
     "extract_to": "",
@@ -19,6 +19,6 @@
         ]
     ],
     "autoupdate": {
-	"url": "https://www.klayout.org/downloads/Windows/klayout-$version-win64-install.zip"
+	"url": "https://www.klayout.org/downloads/Windows/klayout-$version-win64.zip"
     }
 }
