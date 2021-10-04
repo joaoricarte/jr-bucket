@@ -9,6 +9,7 @@
     },
     "url": "https://www.klayout.org/downloads/Windows/klayout-0.27.4-win64.zip",
     "hash": "0a9ed775da5edb7db595cb0c85e5ca93fdd3e756bbe124cb51ee3938a09c3a67",
+    "extract_dir": "klayout-$version-win64",
     "extract_to": "",
     "bin": "klayout_app.exe",
     "shortcuts": [
