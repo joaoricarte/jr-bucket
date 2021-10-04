@@ -13,7 +13,7 @@
             "yuzu.exe",
             "Yuzu"
         ]
-    ]
+    ],
     "autoupdate": {
     "url": "https://github.com/pineappleEA/pineapple-src/releases/download/$version/Windows-Yuzu-$version.7z"
     }
