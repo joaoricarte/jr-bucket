@@ -7,10 +7,10 @@
     "hash": "955846f9489eb031766e7b1baa6dfe57a964ef6e53f81668ec015544102e6302",
     "extract_dir": "WebPlotDigitizer-4.5-win32-x64",
     "extract_to": "",
-    "bin": "WebPlotDigitizer-4.4.exe",
+    "bin": "WebPlotDigitizer-4.5.exe",
     "shortcuts": [
         [
-            "WebPlotDigitizer-4.4.exe",
+            "WebPlotDigitizer-4.5.exe",
             "Web PLot Digitizer"
         ]
     ],
