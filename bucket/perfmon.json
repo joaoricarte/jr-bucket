@@ -6,7 +6,7 @@
     "url": "http://www.hexagora.com/download/PerfMonZip.zip",
     "extract_to": "",
     "bin": "PerfMon.exe",
-    "hash": ""
+    "hash": "",
     "shortcuts": [
         [
             "PerfMon.exe",
