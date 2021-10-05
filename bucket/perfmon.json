@@ -15,5 +15,8 @@
     "checkver": {
         "url": "http://www.hexagora.com/en_dw_davperf.asp",
         "re": "Performance Monitor (?<version>[\\d.]+)"
+    },
+    "autoupdate": {
+    "url": "http://www.hexagora.com/download/PerfMonZip.zip"
     }
 }
