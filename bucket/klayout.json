@@ -17,7 +17,7 @@
     "checkver": {
         "url": "https://www.klayout.de/build.html",
         "re": "klayout-(?<version>[\\d.]+)-win64.zip"
-    }
+    },
     "autoupdate": {
         "url": "https://www.klayout.org/downloads/Windows/klayout-$version-win64.zip",
         "extract_dir": "klayout-$version-win64"
