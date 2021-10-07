@@ -1,43 +1,47 @@
 {
     "homepage": "https://desmume.org",
-    "version": "0.0.0.877",
-    "description": "Nintendo DS Emulator",
-    "pre_install": "Rename-Item $dir\\DeSmuME-VS2019-x64-Release.exe $dir\\desmume.exe",
+    "version": "0.9.12-877-7fc2e4b6",
+    "license": "GPL-2.0-only",
+    "description": "DeSmuME is a Nintendo DS emulator",
     "architecture": {
         "64bit": {
-            "url": "https://ci.appveyor.com/api/buildjobs/dlk4s74t0t62tswv/artifacts/desmume/src/frontend/windows/__bins/DeSmuME-VS2019-x64-Release.exe",
-            "hash": "e59d01c8448d6be279937ad975459798b701c8742ff6bd9e219b08681baf9a0e",
-            "bin": [
-                [
-                    "desmume.exe"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "desmume.exe",
-                    "Desmume"
-                ]
-            ]
+            "url": "https://ci.appveyor.com/api/buildjobs/dlk4s74t0t62tswv/artifacts/desmume/src/frontend/windows/__bins/DeSmuME-VS2019-x64-Release.exe#/DeSmuMe.exe",
+            "hash": "e59d01c8448d6be279937ad975459798b701c8742ff6bd9e219b08681baf9a0e"
         }
     },
+    "shortcuts": [
+        [
+            "DeSmuME.exe",
+            "DeSmuME"
+        ]
+    ],
     "persist": [
+        "AviFiles",
         "Battery",
         "Cheats",
+        "Firmware",
+        "Lua",
+        "Roms",
+        "Screenshots",
+        "SramImportExport",
         "States",
         "StateSlots",
         "desmume.ini"
     ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\desmume.ini\")) {",
+        "    New-Item \"$dir\\desmume.ini\" -Type File | Out-Null",
+        "}"
+    ],
     "checkver": {
         "url": "https://ci.appveyor.com/api/projects/zeromus/desmume",
-        "jp": {
-            "version": "$.build.version",
-            "jobid": "$.build.jobs[0].jobId"
-        }
+        "regex": "(?smi)\"jobId\":\"(?<x64jid>[\\da-z]{16})\",\"name\":\"\",\"osType\":\"Windows\".*\"buildNumber\":(?<build>[\\d]+).*\"commitId\":\"(?<commit>[\\da-f]{8})",
+        "replace": "0.9.12-${build}-${commit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ci.appveyor.com/api/buildjobs/$matchJobid/artifacts/desmume/src/frontend/windows/__bins/DeSmuME-VS2019-x64-Release.exe"
+                "url": "https://ci.appveyor.com/api/buildjobs/$matchX64jid/artifacts/desmume/src/frontend/windows/__bins/DeSmuME-VS2019-x64-Release.exe#/DeSmuMe.exe"
             }
         }
     }
