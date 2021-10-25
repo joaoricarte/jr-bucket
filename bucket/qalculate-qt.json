@@ -1,5 +1,5 @@
 {
-    "version": "3.21.0",
+    "version": "3.20.0",
     "description": "Multi-purpose calculator",
     "homepage": "https://qalculate.github.io/",
     "license": "GPL-2.0-or-later",
@@ -14,8 +14,13 @@
     "shortcuts": [
         [
             "qalculate-qt.exe",
+            "Qalculate-Qt!"
+        ],
+
+        [
+            "qalculate.exe",
             "Qalculate!"
-        ]
+        ],
     ],
     "persist": "user",
     "checkver": {
