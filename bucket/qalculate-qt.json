@@ -16,6 +16,11 @@
             "qalculate-qt.exe",
             "Qalculate-Qt!"
         ],
+                [
+            "qalc.exe",
+            "Qalc!",
+            "-i -c"
+        ],
         [
             "qalculate.exe",
             "Qalculate!"
