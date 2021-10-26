@@ -1,15 +1,15 @@
 {
-    "version": "2160",
-    "description": "yuzu emulator early access",
-    "homepage": "https://github.com/pineappleEA/pineapple-src",
-    "checkver": {
-        "url": "https://github.com/pineappleEA/pineapple-src/releases/latest",
-        "re": "Windows-Yuzu-EA-(?<version>[\\d]+).7z"
+    "homepage": "https://yuzu-emu.org/",
+    "version": "791",
+    "description": "Nintendo Switch Emulator",
+    "license": {
+        "identifier": "GPL-2.0",
+        "url": "https://github.com/yuzu-emu/yuzu-mainline/blob/master/license.txt"
     },
-    "license": "GPLv2",
-    "url": "https://github.com/pineappleEA/pineapple-src/releases/download/EA-2160/Windows-Yuzu-EA-2160.7z",
-    "extract_dir": "yuzu-windows-msvc-early-access",
-    "extract_to": "",
+    "url": "https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-791/yuzu-windows-msvc-20211026-2b4ead19b.zip",
+    "hash": "91883817d1e93afd1694fc7276e1b78b24d9e7f9b35c7167f2cae74814a007ef",
+    "extract_dir": "yuzu-windows-msvc",
+    "pre_install": "mkdir $dir/user",
     "bin": "yuzu.exe",
     "shortcuts": [
         [
@@ -18,8 +18,11 @@
         ]
     ],
     "persist": "user",
-    "autoupdate": {
-        "url": "https://github.com/pineappleEA/pineapple-src/releases/download/EA-$version/Windows-Yuzu-EA-$version.7z"
+    "checkver": {
+        "url": "https://github.com/yuzu-emu/yuzu-mainline/releases/latest",
+        "regex": "href=\"\\/yuzu-emu\\/yuzu-mainline\\/releases\\/download\\/mainline\\-0\\-(?<version>\\d+)\\/yuzu\\-windows\\-msvc\\-(?<date>[0-9]{8})\\-(?<commitshort>[a-z0-9]{9})\\.zip\""
     },
-    "hash": "3f7d114c07c6c9ade0f73df514b69ab24f5a3d2cfa1907ccb1971c5987216beb"
+    "autoupdate": {
+        "url": "https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-$version/yuzu-windows-msvc-$matchDate-$matchCommitshort.zip"
+    }
 }
