@@ -5,12 +5,12 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/21.10.0/smplayer-portable-21.10.0.0-x64.7z",
-            "extract_dir": "smplayer-portable-21.10.0.0",
+            "extract_dir": "smplayer-portable",
             "hash": "sha1:8629df9cdd13120a0b6d89ec4e8e5ef20a92e743"
         },
         "32bit": {
             "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/21.10.0/smplayer-portable-21.10.0.0-win32-qt5.6.7z",
-            "extract_dir": "smplayer-portable-21.10.0.0",
+            "extract_dir": "smplayer-portable",
             "hash": "sha1:dd14d64e1917f19e294fcd9ce35bb63c59dd379c"
         }
     },
