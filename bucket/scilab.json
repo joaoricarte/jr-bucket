@@ -1,42 +1,29 @@
 {
     "homepage": "https://www.scilab.org",
-    "version": "6.1.1",
+    "version": "6.0.1",
     "architecture": {
         "64bit": {
-            "url": "http://www.scilab.org/download/6.1.1/scilab-6.1.1_x64.exe",
-            "hash": "349f40c2b2906003ce82c4a8a37fc4dee4cf85bb3eb783020cc7e8ae815a6a0d"
+            "url": "http://www.scilab.org/download/6.0.1/scilab-6.0.1_x64.exe",
+            "hash": "57c915430bd4a47b0c0bdc124a96a2190fa527ac46978f407f2d1689f3b566f7"
         },
         "32bit": {
-            "url": "http://www.scilab.org/download/6.1.1/scilab-6.1.1.exe",
-            "hash": "43336cda96251d3dde9106fc5f1302ae722ab83e8a6bf894dff3238ea02be779"
+            "url": "http://www.scilab.org/download/6.0.1/scilab-6.0.1.exe",
+            "hash": "425e08b41eb5b5bdad0599234a5c4c430caf86c333af8d5e61f16f4b6d38b265"
         }
     },
-    "installer": {
-        "args": [
+    "installer" : {
+        "args" : [
             "/VERYSILENT",
             "/DIR=$dir"
         ]
     },
-    "uninstaller": {
-        "file": "unins000.exe",
-        "args": [
+    "uninstaller" : {
+        "file" : "unins000.exe",
+        "args" : [
             "/VERYSILENT",
             "/CLOSEAPPLICATIONS",
             "/FORCECLOSEAPPLICATIONS"
         ]
-    },
-    "checkver": {
-        "url": "https://www.scilab.org/en/download",
-        "re": "Scilab ([\\d.]+)"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "http://www.scilab.org/download/$version/scilab-$version_x64.exe"
-            },
-            "32bit": {
-                "url": "http://www.scilab.org/download/$version/scilab-$version.exe"
-            }
-        }
     }
+
 }
