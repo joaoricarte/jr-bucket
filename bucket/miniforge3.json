@@ -43,7 +43,7 @@
     "persist": "envs",
     "checkver": {
         "url": "https://github.com/conda-forge/miniforge/releases/latest",
-        "regex": "Miniforge3-(?<version>[\\d]+)-Windows-x86_64.exe"
+        "regex": "Miniforge (?<version>[\\d]+)"
     },
     "autoupdate": {
         "architecture": {
