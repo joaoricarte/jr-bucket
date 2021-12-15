@@ -28,7 +28,7 @@
     },
     "checkver": {
         "url": "https://help.scilab.org/",
-        "re": "([\\d.]+) (Current)"
+        "re": "(?<version>[\\d.]+) (Current)   "
     },
     "autoupdate": {
         "architecture": {
