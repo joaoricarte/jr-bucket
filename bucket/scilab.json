@@ -27,8 +27,8 @@
         ]
     },
     "checkver": {
-        "url": "https://help.scilab.org/",
-        "re": "(?<version>[\\d.]+) (Current)   "
+        "url": "http://gitweb.scilab.org/?p=scilab.git;a=tags",
+        "re": "Scilab (?<version>[\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
