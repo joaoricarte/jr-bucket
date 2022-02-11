@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Dolphin_Nightly_win64/$version/artifact/dolphin-master-$version-windows-msvc2019_64-cl.7z"
+                "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Dolphin_Nightly_win64/$preReleaseVersion/artifact/dolphin-master-$version-windows-msvc2019_64-cl.7z"
             }
         },
         "hash": {
