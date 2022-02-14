@@ -1,11 +1,11 @@
 {
-    "version": "0.27.7",
+    "version": "0.27.8",
     "description": "KLayout is a GDS and OASIS file viewer and editor",
     "homepage": "https://www.klayout.de/intro.html",
     "license": "GPL",
-    "url": "https://www.klayout.org/downloads/Windows/klayout-0.27.7-win64.zip",
-    "hash": "a02b3de4c8f677a9780f827d0c5a396e3adb8d3b3c2569c5262fc9a3a79ab027",
-    "extract_dir": "klayout-0.27.7-win64",
+    "url": "https://www.klayout.org/downloads/Windows/klayout-0.27.8-win64.zip",
+    "hash": "9d5e27d3afd7e326d49484f4814def322ddf91a9a18a0dca6ad07404d9b45d5c",
+    "extract_dir": "klayout-0.27.8-win64",
     "extract_to": "",
     "bin": "klayout_app.exe",
     "shortcuts": [
