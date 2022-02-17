@@ -20,12 +20,18 @@
         }
     },
     "extract_dir": "core",
-    "post_install": "firefox -CreateProfile \"Scoop $dir\\profile\"",
-    "bin": "firefox.exe",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-nightly",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
     "shortcuts": [
         [
             "firefox.exe",
-            "Firefox"
+            "Firefox Nightly",
+            "-profile \"$dir\\profile\""
         ],
         [
             "firefox.exe",
