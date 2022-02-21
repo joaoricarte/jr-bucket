@@ -63,7 +63,7 @@
             }
         },
         "hash": {
-            "url": "$baseurl/Everything-$version.sha256"
+            "url": "https://www.voidtools.com/Everything-$version.sha256"
         }
     }
 }
