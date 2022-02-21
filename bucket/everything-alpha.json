@@ -1,5 +1,5 @@
 {
-    "version": "1.4",
+    "version": "1.5.0.1300a",
     "description": "Locate files and folders by name instantly.",
     "homepage": "https://www.voidtools.com/forum/viewtopic.php?f=12&t=9787",
     "license": "MIT",
@@ -12,7 +12,7 @@
                 "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/everything/uninstall-context.reg"
             ],
             "hash": [
-                "8268b1ed68bcd8f2d1033f6ceaeb747dfa66f7d7b4ca3c784475a5a03378b269",
+                "",
                 "6b27de9e61ff039bf42cd07f4da23034c4678a8968403913ba29fa5c5a3b457a",
                 "4904157dfa505d9d97764fe871c22012c9292fc4d1bccb56d7daa6b5b40a89ad"
             ]
@@ -35,16 +35,15 @@
     },
     "bin": "Everything64.exe",
     "shortcuts": [
-                [
-                    "Everything64.exe",
-                    "Everything"
-                ]
-            ],
+        [
+            "Everything64.exe",
+            "Everything"
+        ]
+    ],
     "checkver": "Everything-([\\da-z.]+).x64.zip",
     "autoupdate": {
         "architecture": {
-                "url": "https://www.voidtools.com/Everything-$version.x64.zip"
-            }
+            "url": "https://www.voidtools.com/Everything-$version.x64.zip"
         },
         "hash": {
             "url": "https://www.voidtools.com/Everything-$version.sha256"
