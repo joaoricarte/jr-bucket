@@ -52,7 +52,7 @@
             "Everything"
         ]
     ],
-    "checkver": "Everything-([\\d.]+).x64.zip",
+    "checkver": "Everything-([\\d.]+)a.x64.zip",
     "autoupdate": {
         "architecture": {
             "64bit": {
