@@ -20,9 +20,9 @@
         "if (Test-Path \"$dir\\Everything86.exe\") { Rename-Item \"$dir\\Everything86.exe\" 'Everything.exe' }",
         "if (!(Test-Path \"$persist_dir\\Everything.ini\")) { Invoke-ExternalCommand \"$dir\\Everything.exe\" -Args @('-install-config null') | Out-Null }",
         "Get-ChildItem \"$persist_dir\\*\" -Include 'Everything.db', 'Bookmarks.csv', 'Everything.ini' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue",
-        "Copy-Item \"$bucketsdir\\extra\\scripts\\everything\\uninstall-context.reg\" \"$dir\\\"",
+        "Copy-Item \"$bucketsdir\\extras\\scripts\\everything\\uninstall-context.reg\" \"$dir\\\"",
         "$app_path = \"$dir\\Everything.exe\".Replace('\\', '\\\\')",
-        "$reg_content = Get-Content \"$bucketsdir\\versions\\extra\\everything\\install-context.reg\"",
+        "$reg_content = Get-Content \"$bucketsdir\\extras\\scripts\\everything\\install-context.reg\"",
         "$reg_content = $reg_content.replace('$app_path', $app_path)",
         "Set-Content \"$dir\\install-context.reg\" $reg_content -Encoding ASCII"
     ],
