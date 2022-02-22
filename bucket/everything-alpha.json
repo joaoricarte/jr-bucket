@@ -18,7 +18,7 @@
         "if (Test-Path \"$dir\\Everything64.exe\") { Rename-Item \"$dir\\Everything64.exe\" 'Everything.exe' }",
         "if (Test-Path \"$dir\\Everything86.exe\") { Rename-Item \"$dir\\Everything86.exe\" 'Everything.exe' }",
         "if (!(Test-Path \"$persist_dir\\Everything-1.5a.ini\")) { Invoke-ExternalCommand \"$dir\\Everything.exe\" -Args @('-install-config null') | Out-Null }",
-        "Get-ChildItem \"$persist_dir\\*\" -Include 'Everything-1.5a.db', 'Plugins-1.5a.ini', 'Bookmarks.csv', 'Everything-1.5a.ini' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue",
+        "Get-ChildItem \"$persist_dir\\*\" -Include 'Everything-1.5a.db', 'Plugins-1.5a.ini', 'Bookmarks-1.5a.csv', 'Run History-1.5a.csv', 'Search History-1.5a.csv', 'Everything-1.5a.ini' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue",
         "Copy-Item \"$bucketsdir\\extras\\scripts\\everything\\uninstall-context.reg\" \"$dir\\\"",
         "$app_path = \"$dir\\Everything.exe\".Replace('\\', '\\\\')",
         "$reg_content = Get-Content \"$bucketsdir\\extras\\scripts\\everything\\install-context.reg\"",
@@ -28,7 +28,7 @@
     "post_install": "reg import \"$dir\\install-context.reg\"",
     "uninstaller": {
         "script": [
-            "Get-ChildItem \"$dir\\*\" -Include 'Everything-1.5a.ini', 'Everything-1.5a.db', 'Plugins-1.5a.ini', 'Bookmarks.csv' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force",
+            "Get-ChildItem \"$dir\\*\" -Include 'Everything-1.5a.ini', 'Everything-1.5a.db', 'Plugins-1.5a.ini', 'Bookmarks-1.5a.csv', 'Run History-1.5a.csv', 'Search History-1.5a.csv' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force",
             "reg import \"$dir\\uninstall-context.reg\""
         ]
     },
