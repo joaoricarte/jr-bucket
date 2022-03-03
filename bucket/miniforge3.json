@@ -25,7 +25,7 @@
         ]
     },
     "uninstaller": {
-        "file": "Uninstall-Miniconda3.exe",
+        "file": "Uninstall-Miniforge3.exe",
         "args": "/S"
     },
     "bin": [
