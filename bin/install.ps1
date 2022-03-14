@@ -33,7 +33,7 @@ Write-Output 'Initializing...'
 Invoke-Expression (new-object net.webclient).downloadstring($core_url)
 
 # prep
-if (installed 'scoop') {
+if (Get-Command -Name 'scoop' -ErrorAction SilentlyContinue) {
     write-host "Scoop is already installed. Run 'scoop update' to get the latest version." -f red
     # don't abort if invoked with iex that would close the PS session
     if ($myinvocation.mycommand.commandtype -eq 'Script') { return } else { exit 1 }
@@ -69,7 +69,6 @@ Copy-Item "$dir\_tmp\*-master\*" $dir -Recurse -Force
 Remove-Item "$dir\_tmp", $zipfile -Recurse -Force
 
 ensure_robocopy_in_path
-ensure_scoop_in_path
 
 scoop config lastupdate ([System.DateTime]::Now.ToString('o'))
 success 'Scoop was installed successfully!'
