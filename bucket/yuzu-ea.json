@@ -1,5 +1,5 @@
 {
-    "version": "2566",
+    "version": "2576",
     "description": "yuzu emulator early access",
     "homepage": "https://github.com/pineappleEA/pineapple-src",
     "checkver": {
@@ -7,7 +7,7 @@
         "re": "EA-(?<version>[\\d]+)"
     },
     "license": "GPLv2",
-    "url": "https://github.com/pineappleEA/pineapple-src/releases/download/EA-2566/Windows-Yuzu-EA-2566.7z",
+    "url": "https://github.com/pineappleEA/pineapple-src/releases/download/EA-2576/Windows-Yuzu-EA-2576.7z",
     "extract_dir": "yuzu-windows-msvc-early-access",
     "extract_to": "",
     "bin": "yuzu.exe",
@@ -21,5 +21,5 @@
     "autoupdate": {
         "url": "https://github.com/pineappleEA/pineapple-src/releases/download/EA-$version/Windows-Yuzu-EA-$version.7z"
     },
-    "hash": "3d470c028e442d1e6cbd7dd6e4c7b831feff13c4112f74accf3530c54ea0f9aa"
+    "hash": "870911a39696eb6d092422e5e4b0c313a9af8c660d773518a93217c06e72ee6f"
 }

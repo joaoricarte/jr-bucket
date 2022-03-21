@@ -1,13 +1,13 @@
 {
     "homepage": "https://yuzu-emu.org/",
-    "version": "954",
+    "version": "957",
     "description": "Nintendo Switch Emulator",
     "license": {
         "identifier": "GPL-2.0",
         "url": "https://github.com/yuzu-emu/yuzu-mainline/blob/master/license.txt"
     },
-    "url": "https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-954/yuzu-windows-msvc-20220317-7256129ac.zip",
-    "hash": "24c04275cc5b862e98ebac97e239380d48bede4de1b02074bf50e574a822cd9e",
+    "url": "https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-957/yuzu-windows-msvc-20220320-1ce8136c7.zip",
+    "hash": "94398f59990fa8c0ffeb3c5062d844ae0136cb7870dddda5888adcaffa56eb48",
     "extract_dir": "yuzu-windows-msvc",
     "pre_install": "mkdir $dir/user",
     "bin": "yuzu.exe",
