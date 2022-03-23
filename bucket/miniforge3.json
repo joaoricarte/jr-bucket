@@ -1,5 +1,5 @@
 {
-    "version": "4.11.0-4",
+    "version": "4.12.0-0",
     "description": "A cross-platform, Python-agnostic binary package manager",
     "homepage": "https://conda-forge.org/",
     "license": "BSD-3-Clause",
@@ -10,8 +10,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/conda-forge/miniforge/releases/download/4.11.0-4/Miniforge3-4.11.0-4-Windows-x86_64.exe",
-            "hash": "83ff7ef43b54c1b11635c460aaf31bd2f37e9e523e60da57dfa3fc62a8102973"
+            "url": "https://github.com/conda-forge/miniforge/releases/download/4.12.0-0/Miniforge3-4.12.0-0-Windows-x86_64.exe",
+            "hash": "3b665447a867eccca104acc34c1ef73efe1b0f95eef3f13f62b95021448cb57b"
         }
     },
     "installer": {
