@@ -1,12 +1,12 @@
 {
-    "version": "21.12.3-1-1487",
+    "version": "21.12.3-1-1488",
     "description": "Dolphin is KDE's file manager that lets you navigate and browse the contents of your hard drives, USB sticks, SD cards, and more. Creating, moving, or deleting files and folders is simple and fast.",
     "homepage": "https://apps.kde.org/dolphin/",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Dolphin_Release_win64/1487/artifact/dolphin-21.12.3-1-1487-windows-msvc2019_64-cl.7z",
-            "hash": "bdc61979f39c8ac9ec63e94242aafa5a8ed0b355cbba0c8d263c4497d8b9c8f9"
+            "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Dolphin_Release_win64/1488/artifact/dolphin-21.12.3-1-1488-windows-msvc2019_64-cl.7z",
+            "hash": "9e27d5ad722405e7799ebabcff57e9f00f6d72cea47373520a4d90b522cbe550"
         }
     },
     "bin": "bin\\dolphin.exe",
