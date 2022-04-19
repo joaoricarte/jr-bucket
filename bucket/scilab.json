@@ -5,11 +5,11 @@
     "architecture": {
         "64bit": {
             "url": "http://www.scilab.org/download/6.1.1/scilab-6.1.1_x64.exe",
-            "hash": "349f40c2b2906003ce82c4a8a37fc4dee4cf85bb3eb783020cc7e8ae815a6a0d"
+            "hash": "b902a2d408a0f694a916ac6174ce7d522679e8d4f2efffee708b9b7a0f3bad08"
         },
         "32bit": {
             "url": "http://www.scilab.org/download/6.1.1/scilab-6.1.1.exe",
-            "hash": "43336cda96251d3dde9106fc5f1302ae722ab83e8a6bf894dff3238ea02be779"
+            "hash": "b902a2d408a0f694a916ac6174ce7d522679e8d4f2efffee708b9b7a0f3bad08"
         }
     },
     "installer": {
