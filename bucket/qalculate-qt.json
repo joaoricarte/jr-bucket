@@ -22,7 +22,7 @@
             "-i -c"
         ],
         [
-            "qalculate.exe",
+            "qalculate-gtk.exe",
             "Qalculate!"
         ]
     ],
