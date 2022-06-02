@@ -1,5 +1,5 @@
 {
-    "version": "103.0a1.20220531065724",
+    "version": "103.0a1.20220601213138",
     "description": "Popular open source web browser.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
@@ -11,12 +11,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/05/2022-05-31-06-57-24-mozilla-central/firefox-103.0a1.en-US.win64.installer.exe#/dl.7z",
-            "hash": "sha512:fc386865afd0a0e48be0e48b607b5bc6e24bce2f5f9c87830d536d9e7ba71c63c08c67ed6a8737116e38d105981bae86011dce4f534829450a435870af8f77d9"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/06/2022-06-01-21-31-38-mozilla-central/firefox-103.0a1.en-US.win64.installer.exe#/dl.7z",
+            "hash": "sha512:0ace059514f06507e57f27e3f33ec4f74704b782c096522d89b52b8a3c6ac5a303c8fe6c30acb9f04a45cb04204f6f6eb60a5550fc05cebe0eb3c3719cf2b564"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/05/2022-05-31-06-57-24-mozilla-central/firefox-103.0a1.en-US.win32.installer.exe#/dl.7z",
-            "hash": "sha512:0fdd536df1525d562668f6a0e57b91519794b50813d6ce7ec50e90a1561a77620c6a4a01563a32aab99501a28ec431979fea7a2ddcf718caaca899ea733a8d20"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/06/2022-06-01-21-31-38-mozilla-central/firefox-103.0a1.en-US.win32.installer.exe#/dl.7z",
+            "hash": "sha512:c4b5a0f73ff6569fe5120757478d814662908f2af2e2a1b701ff488b0f4c97c6bff9e60bad8d4c2f78fb0d95dd1351faca73d8cdffa13606731269a4a0b3dfd3"
         }
     },
     "extract_dir": "core",
