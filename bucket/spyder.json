@@ -1,17 +1,12 @@
 {
-    "version": "4.12.0-2",
-    "description": "A cross-platform, Python-agnostic binary package manager",
-    "homepage": "https://conda-forge.org/",
-    "license": "BSD-3-Clause",
-    "notes": [
-        "Currently conda envs activate and deactivate doesn't work on PowerShell,",
-        "for more information, see: https://github.com/conda/conda/issues/626,",
-        "or just execute: 'conda install -n root -c pscondaenvs pscondaenvs'"
-    ],
+    "version": "5.3.1",
+    "description": "Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts",
+    "homepage": "https://www.spyder-ide.org/",
+    "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/conda-forge/miniforge/releases/download/4.12.0-2/Miniforge3-4.12.0-2-Windows-x86_64.exe",
-            "hash": "39c71fa902188edaf8c90a9868e6b76fb9d3f08c4d5c48c8077054b8e0aa5417"
+            "url": "https://github.com/spyder-ide/spyder/releases/download/v5.3.1/Spyder_64bit_full.exe",
+            "hash": "820a38b1de9c25c021dbcfed03ab0eff3e9b7341c819ced05fb327680137d7e4"
         }
     },
     "installer": {
@@ -42,14 +37,13 @@
     ],
     "persist": "envs",
     "checkver": {
-        "url": "https://github.com/conda-forge/miniforge/releases/latest",
-        "regex": "Miniforge3-(?<major>[\\d\\.]+)-(?<build>[\\d]+)",
-        "replace": "${major}-${build}"
+        "url": "https://github.com/spyder-ide/spyder/releases/latest",
+        "regex": "Spyder (?\\d\\.+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/conda-forge/miniforge/releases/download/$version/Miniforge3-$version-Windows-x86_64.exe"
+                "url": "https://github.com/spyder-ide/spyder/releases/download/v$version/Spyder_64bit_full.exe"
             }
         }
     }
