@@ -20,22 +20,9 @@
         ]
     },
     "uninstaller": {
-        "file": "Uninstall-Miniforge3.exe",
+        "file": "uninstall.exe",
         "args": "/S"
     },
-    "bin": [
-        "python.exe",
-        "pythonw.exe",
-        [
-            "python.exe",
-            "python3"
-        ]
-    ],
-    "env_add_path": [
-        "scripts",
-        "Library\\bin"
-    ],
-    "persist": "envs",
     "checkver": {
         "url": "https://github.com/spyder-ide/spyder/releases/latest",
         "regex": "Spyder (?\\d\\.+)"
