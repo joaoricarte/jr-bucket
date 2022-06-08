@@ -12,7 +12,7 @@
     "installer": {
         "args": [
         "/S",
-        "/D=$dir"
+        "/TargetDir=$dir"
         ]
     },
     "uninstaller": {
