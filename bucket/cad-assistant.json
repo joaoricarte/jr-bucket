@@ -1,9 +1,13 @@
 {
-    "version": "1.6.0_2021-10-05",
+    "version": "1",
     "description": "Open Cascade CAD Assistant is a powerful offline 3D CAD viewer and converter with simple and intuitive interface, free for both personal and commercial use",
     "homepage": "https://www.opencascade.com/products/cad-assistant/",
-    "url": "https://www.opencascade.com/sites/default/files/private/occt/applications/cad_assistant_1.6.0_2021-10-05_win64.zip",
-    "hash": "",
+    "architecture": {
+        "64bit": {
+            "url": "http://www.scilab.org/download/6.1.1/scilab-6.1.1_x64.exe",
+            "hash": ""
+        }
+    }
     "extract_dir": "cad_assistant_$version_win64",
     "shortcuts": [
         [
