@@ -1,0 +1,21 @@
+{
+    "version": "0",
+    "description": "Open Cascade CAD Assistant is a powerful offline 3D CAD viewer and converter with simple and intuitive interface, free for both personal and commercial use",
+    "homepage": "https://www.opencascade.com/products/cad-assistant/",
+    "url": "https://github.com/Qalculate/libqalculate/releases/download/v4.2.0/qalculate-4.2.0-x64.zip",
+    "hash": "",
+    "extract_dir": "cad_assistant_$version_$date_win64",
+    "shortcuts": [
+        [
+            "bin\\LyX.exe",
+            "LyX"
+        ]
+    ],
+    "checkver": {
+        "url": "https://old.opencascade.com/content/cad-assistant",
+        "re": "Version ([\\d.]+) \((?<date>[\\d]+)\)"
+    },
+    "autoupdate": {
+        "url": "https://old.opencascade.com/sites/default/files/private/occt/applications/cad_assistant_$version_$date_win64.zip"
+    }
+}
