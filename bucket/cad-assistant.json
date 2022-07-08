@@ -6,9 +6,15 @@
     "url": "https://old.opencascade.com/sites/default/files/private/occt/applications/cad_assistant_1.5.0_$date_win64.zip",
     "hash": "",
     "extract_dir": "cad_assistant_$version_$date_win64",
+    "shortcuts": [
+        [
+            "CADAssistant.exe",
+            "CAD Assistant"
+        ]
+    ],
     "checkver": {
         "url": "https://old.opencascade.com/content/cad-assistant",
-        "regex": "Version ([\\d.]+)"
+        "regex": "Version ([\\d.]+) ((?<date>[\\d]+))"
     },
     "autoupdate": {
         "url": "https://old.opencascade.com/sites/default/files/private/occt/applications/cad_assistant_$version_$date_win64.zip"
