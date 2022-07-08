@@ -8,7 +8,6 @@
             "hash": "00e44b612e36963c1b74e68a6511260114fdf30920f75948ddc8b11a43e6781b"
         }
     },
-    "extract_dir": "cad_assistant_$version_win64",
     "shortcuts": [
         [
             "CADAssistant.exe",
