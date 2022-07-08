@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://dev.opencascade.org/project/cad-assistant",
-        "regex": "Version (?<version>[\\d.]+) \\((?<date>[\\d-]+)\\)"
+        "regex": "Version\\s(?<version>[\\d.]+)\\s\\((?<date>[\\d-]+)\\)"
     },
     "autoupdate": {
         "url": "https://old.opencascade.com/sites/default/files/private/occt/applications/cad_assistant_$version_$date_win64.zip"
