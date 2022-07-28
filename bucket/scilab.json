@@ -1,6 +1,6 @@
 {
     "homepage": "https://www.scilab.org",
-    "version": "6.1.1",
+    "version": "0",
     "description": "Open source software for numerical computation",
     "architecture": {
         "64bit": {
@@ -27,16 +27,16 @@
         ]
     },
     "checkver": {
-        "url": "http://gitweb.scilab.org/?p=scilab.git;a=tags",
-        "re": "Scilab (?<version>[\\d.]+)"
+        "url": "https://www.scilab.org/download",
+        "regex": "<h1>Scilab ([\\d.]+)</h1>"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://www.scilab.org/download/$version/scilab-$version_x64.exe"
+                "url": "https://www.scilab.org/download/$version/scilab-$version_x64.exe"
             },
             "32bit": {
-                "url": "http://www.scilab.org/download/$version/scilab-$version.exe"
+                "url": "https://www.scilab.org/download/$version/scilab-$version.exe"
             }
         }
     }
