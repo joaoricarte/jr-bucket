@@ -1,5 +1,5 @@
 {
-    "version": "0.22.2",
+    "version": "22.3",
     "description": "Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.",
     "homepage": "https://stellarium.org/",
     "license": {
@@ -9,12 +9,12 @@
     "depends": "innounp",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stellarium/stellarium/releases/download/v0.22.2/stellarium-0.22.2-win64.exe",
-            "hash": "1e14810e7d4eb90e60b842cadb32cb26a9e67ced75aa987bddb2c3bb280b3084"
+            "url": "https://github.com/Stellarium/stellarium/releases/download/v1.0/stellarium-1.22.3-win64.exe",
+            "hash": "f26a6a0b046877180ae0826e8095652d76d27ae369c5d0372ed001346034d459"
         },
         "32bit": {
-            "url": "https://github.com/Stellarium/stellarium/releases/download/v0.22.2/stellarium-0.22.2-win32.exe",
-            "hash": "283f54c87bbf15f80cdfe86ba48be7e6a179b4575fde21133864fa23b679ea87"
+            "url": "https://github.com/Stellarium/stellarium/releases/download/v1.0/stellarium-0.22.3-win32.exe",
+            "hash": "23568ac56d63d0d72aa6bfc5bb89eb407b3ebb1b8e451781e37ade78422a470f"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" | Rename-Item -NewName \"$dir\\stellarium-installer.exe\"",
@@ -37,15 +37,15 @@
     ],
     "checkver": {
         "url": "https://github.com/Stellarium/stellarium/releases/",
-        "re": "Stellarium (?<version>[\\d.]+) (.)v0(?<build>[\\d.]+)"
+        "re": "stellarium-1.(?<version>[\\d.]+)-win64.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Stellarium/stellarium/releases/download/v$version/stellarium-1.$build-win64.exe"
+                "url": "https://github.com/Stellarium/stellarium/releases/download/v1.0/stellarium-1.$version-win64.exe"
             },
             "32bit": {
-                "url": "https://github.com/Stellarium/stellarium/releases/download/v$version/stellarium-0.$build-win32.exe"
+                "url": "https://github.com/Stellarium/stellarium/releases/download/v1.0/stellarium-0.$version-win32.exe"
             }
         }
     }
