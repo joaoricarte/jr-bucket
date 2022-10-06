@@ -37,7 +37,7 @@
     ],
     "checkver": {
         "url": "https://github.com/Stellarium/stellarium/releases/",
-        "re": "Stellarium (?<version>[\\d.]+) (?<par>[.])v0(?<build>[\\d.]+)"
+        "re": "Stellarium (?<version>[\\d.]+) (?<par>.)v0(?<build>[\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
