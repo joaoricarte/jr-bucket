@@ -37,8 +37,7 @@
     ],
     "checkver": {
         "url": "https://github.com/Stellarium/stellarium/releases/",
-        "re": "Stellarium (?<version>[\\d.]+) ",
-        "re": "stellarium-0.(?<build>[\\d.]+)-win64.exe"
+        "re": "Stellarium (?<version>[\\d.]+) ..v0(?<build>[\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
