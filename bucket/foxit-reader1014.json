@@ -1,26 +1,30 @@
 {
- "bin": "FoxitReader.exe",
- "description": "Super-fast, feature rich PDF reader that offers a delightful reading experience in a small footprint.",
- "extract_dir": "$PLUGINSDIR",
- "hash": "",
- "homepage": "https://www.foxitsoftware.com/",
- "installer": {
-  "script": [
-   "Get-ChildItem \"$dir\" -Exclude 'Foxit*Prom.exe' | Remove-Item",
-   "Get-Item \"$dir\\Foxit*prom.exe\" | Expand-InnoArchive -Destination \"$dir\" -Removal"
-  ]
- },
- "license": {
-  "identifier": "Freeware",
-  "url": "https://www.foxitsoftware.com/pdf-reader/eula.html"
- },
- "notes": "Deprecated. Use extras/foxit-pdf-reader",
- "shortcuts": [
-  [
-   "FoxitReader.exe",
-   "Foxit Reader 10.1"
-  ]
- ],
- "url": "https://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/10.x/10.1/en_us/FoxitReader101_Setup_Prom_IS.exe#/dl.7z",
- "version": "10.1.0.37527"
+    "##": "Using cdn06.foxitsoftware.com for better speed worldwide. (redirects to cdn06.foxitsoftware.com.cdn.cloudflare.net)",
+    "version": "12.0.2.12465",
+    "description": "Fast and feature rich PDF reader that offers a delightful reading experience.",
+    "homepage": "https://www.foxit.com/pdf-reader/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.foxit.com/pdf-editor/eula.html"
+    },
+    "url": "https://cdn06.foxitsoftware.com/product/reader/desktop/win/12.0.0/FoxitPDFReader1202_L10N_Setup.msi",
+    "hash": "",
+    "pre_install": [
+        "Copy-Item \"$dir\\Foxit Software\\Foxit PDF Reader\\*\" \"$dir\" -Force -Recurse | Out-Null",
+        "Remove-Item \"$dir\\Foxit Software\" -Force -Recurse | Out-Null"
+    ],
+    "bin": "FoxitPDFReader.exe",
+    "shortcuts": [
+        [
+            "FoxitPDFReader.exe",
+            "Foxit PDF Reader 10"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.foxit.com/pdf-reader/version-history.html",
+        "regex": ">Version ([\\d.]+)</"
+    },
+    "autoupdate": {
+        "url": "https://cdn06.foxitsoftware.com/product/reader/desktop/win/$majorVersion.0.0/FoxitPDFReader$majorVersion$minorVersion$patchVersion_L10N_Setup.msi"
+    }
 }
