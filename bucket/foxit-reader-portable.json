@@ -8,7 +8,7 @@
  },
  "bin": "FoxitReaderPortable.exe",
  "checkver": {
-  "re": "Version \\s+([\\w\\.]* for Win",
+  "re": "Version ([\\d.]+) for Windows, Multilingual",
   "url": "https://portableapps.com/apps/office/foxit_reader_portable"
  },
  "description": "PDF Reader",
