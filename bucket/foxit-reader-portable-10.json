@@ -1,0 +1,17 @@
+{
+ "bin": "FoxitReaderPortable.exe",
+ "description": "PDF Reader",
+ "hash": "",
+ "homepage": "https://portableapps.com/apps/office/foxit_reader_portable",
+ "license": "",
+ "persist": "Data",
+ "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+ "shortcuts": [
+  [
+   "FoxitReaderPortable.exe",
+   "FoxitReaderPortable10"
+  ]
+ ],
+ "url": "https://dl2.filehorse.com/win/office-and-business-tools/foxit-reader-portable/FoxitReaderPortable_10.1.4.paf.exe?st=D0Qrt0gGez5WHXGrJPkKPA&e=1668798649&fn=FoxitReaderPortable_10.1.4.paf.exe/dl.7z",
+ "version": "10.1.4"
+}
