@@ -1,23 +1,26 @@
 {
-    "##": "Using cdn06.foxitsoftware.com for better speed worldwide. (redirects to cdn06.foxitsoftware.com.cdn.cloudflare.net)",
-    "version": "10.1.4.37651",
-    "description": "Fast and feature rich PDF reader that offers a delightful reading experience.",
-    "homepage": "https://www.foxit.com/pdf-reader/",
+    "version": "10.1.0.37527",
+    "description": "Super-fast, feature rich PDF reader that offers a delightful reading experience in a small footprint.",
+    "homepage": "https://www.foxitsoftware.com/",
     "license": {
         "identifier": "Freeware",
-        "url": "https://www.foxit.com/pdf-editor/eula.html"
+        "url": "https://www.foxitsoftware.com/pdf-reader/eula.html"
     },
-    "url": "https://cdn06.foxitsoftware.com/product/reader/desktop/win/10.0.0/FoxitPDFReader1014_L10N_Setup.msi",
+    "notes": "Deprecated. Use extras/foxit-pdf-reader",
+    "url": "https://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/10.x/10.1/en_us/FoxitReader101_Setup_Prom_IS.exe#/dl.7z",
     "hash": "",
-    "pre_install": [
-        "Copy-Item \"$dir\\Foxit Software\\Foxit PDF Reader\\*\" \"$dir\" -Force -Recurse | Out-Null",
-        "Remove-Item \"$dir\\Foxit Software\" -Force -Recurse | Out-Null"
-    ],
-    "bin": "FoxitPDFReader.exe",
+    "extract_dir": "$PLUGINSDIR",
+    "installer": {
+        "script": [
+            "Get-ChildItem \"$dir\" -Exclude 'Foxit*Prom.exe' | Remove-Item",
+            "Get-Item \"$dir\\Foxit*prom.exe\" | Expand-InnoArchive -Destination \"$dir\" -Removal"
+        ]
+    },
+    "bin": "FoxitReader.exe",
     "shortcuts": [
         [
-            "FoxitPDFReader.exe",
-            "Foxit PDF Reader 10"
+            "FoxitReader.exe",
+            "Foxit Reader 10"
         ]
     ]
 }
