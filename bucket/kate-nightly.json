@@ -1,12 +1,12 @@
 {
-    "version": "1758",
+    "version": "1765",
     "description": "Multi-document editor",
     "homepage": "https://kate-editor.org",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Nightly_win64/1758/artifact/kate-master-1758-windows-msvc2019_64-cl.7z",
-            "hash": "c6368326b8a9402892c5d867ca76105afa46e8542b19ff0a3e967ee6bea9ab2d"
+            "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Nightly_win64/1765/artifact/kate-master-1765-windows-cl-msvc2019-x86_64.7z",
+            "hash": "ab4230ddcca9b9970376749b4bb6a716e1f0c3d91895f520379ef7df61b9e30c"
         }
     },
     "bin": "bin\\kate.exe",
@@ -18,12 +18,12 @@
     ],
     "checkver": {
         "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Nightly_win64/lastSuccessfulBuild/artifact/",
-        "regex": "kate-master-([\\d.-]+)-windows-msvc2019_64-cl.7z"
+        "regex": "kate-master-([\\d.-]+)-windows-cl-msvc2019-x86_64.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Nightly_win64/$preReleaseVersion/artifact/kate-master-$version-windows-msvc2019_64-cl.7z"
+                "url": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kate_Nightly_win64/$preReleaseVersion/artifact/kate-master-$version-windows-cl-msvc2019-x86_64.7z"
             }
         },
         "hash": {
