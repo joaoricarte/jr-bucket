@@ -40,15 +40,15 @@
         ]
     ],    "checkver": {
         "url": "https://www.lyx.org/Download",
-        "regex": "LyX-(?<cleanver>\\d+)-Installer-(?<build>-\\d+)?-x64.exe"
+        "regex": "LyX-(?<cleanver>\\d+)-Installer-1-x64.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/lyx/bin/$version/LyX-$matchCleanver-Installer$matchBuild-x64.exe#/dl.7z"
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/lyx/bin/$version/LyX-$matchCleanver-Installer-1-x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/lyx/bin/$version/LyX-$matchCleanver-Installer$matchBuild-x32.exe#/dl.7z"
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/lyx/bin/$version/LyX-$matchCleanver-Installer-1-x32.exe#/dl.7z"
             }
         }
     }
