@@ -34,7 +34,7 @@
     ],
     "checkver": {
         "url": "https://languagetool.org/download/windows-app",
-        "regex": "version: ([\\d.]+)\\.exe",
+        "regex": "version:\\.([\\d.]+)",
     },
     "autoupdate": {
         "url": "https://languagetool.org/download/windows-app/LanguageTool-latest.exe#/dl.7z"
