@@ -5,7 +5,7 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.unifiedremote.com/download/windows-portable",
+            "url": "https://www.unifiedremote.com/download/windows-portable#/unified-remote.zip",
             "hash": "",
             "extract_dir": "Server-3.13.0.2501"
         }
