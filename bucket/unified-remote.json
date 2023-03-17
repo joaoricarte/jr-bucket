@@ -24,6 +24,8 @@
         "architecture": {
             "64bit": {
                 "extract_dir": "Server-$version"
-         }
+
+            }
+        }
     }
 }
