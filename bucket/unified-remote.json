@@ -4,6 +4,7 @@
     "homepage": "https://www.unifiedremote.com/",
     "license": "Freeware",
     "url": "https://www.unifiedremote.com/download/windows-portable#/unified-remote.zip",
+    "hash": "5fc1af1ddbebae2405b32f6122e6db04a76dcb3971f42560ab3ac339c51f0771",
     "extract_dir": "Server-3.13.0.2501",
     "shortcuts": [
         [
@@ -16,6 +17,7 @@
         "regex": "ServerSetup-([\\d.]+).e"
     },
     "autoupdate": {
+        "url": "https://www.unifiedremote.com/download/windows-portable#/unified-remote.zip",
         "extract_dir": "Server-$version"
     }
 }
