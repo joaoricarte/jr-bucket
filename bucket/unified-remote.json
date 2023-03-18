@@ -1,5 +1,5 @@
 {
-    "version": "3.0",
+    "version": "3.13.0.2501",
     "description": "Turn your smartphone into a universal remote control.",
     "homepage": "https://www.unifiedremote.com/",
     "license": "Freeware",
@@ -24,7 +24,6 @@
         "architecture": {
             "64bit": {
                 "extract_dir": "Server-$version"
-
             }
         }
     }
