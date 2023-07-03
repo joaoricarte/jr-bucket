@@ -1,16 +1,16 @@
 {
-    "version": "22.7.0",
+    "version": "23.6.0",
     "description": "Free media player for Windows and Linux with built-in codecs that can also play YouTube videos.",
     "homepage": "https://www.smplayer.info/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/smplayer-dev/smplayer/releases/download/v22.7.0/smplayer-portable-22.7.0.0-x64.7z",
-            "hash": "72819385d35f727aa76a513233f7472e82c334d333e879d73682dcc6800cd62a"
+            "url": "https://github.com/smplayer-dev/smplayer/releases/download/v23.6.0/smplayer-portable-23.6.0.0-x64.7z",
+            "hash": "32c02daab027bd154cb29e5818e9ef5d6645b1a23d1cf56a1abe4bcbb2f4f163"
         },
         "32bit": {
-            "url": "https://github.com/smplayer-dev/smplayer/releases/download/v22.7.0/smplayer-portable-22.7.0.0-win32-qt5.6.7z",
-            "hash": "1f85eb91fed00b15e58a111476a5633e8d1dfc850cb622b10af081dc027a13a4"
+            "url": "https://github.com/smplayer-dev/smplayer/releases/download/v23.6.0/smplayer-portable-23.6.0.0-win32-qt5.6.7z",
+            "hash": "a54b7d6dba5df9c54236861aa6c010812825e84723e6dc1724a541e679608359"
         }
     },
     "extract_dir": "smplayer-portable",
