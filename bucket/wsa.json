@@ -1,5 +1,5 @@
 {
-    "version": "2306.40000.4.0",
+    "version": "0",
     "description": "Windows Subsystem For Android™ (WSA) with Google Play Services and (or) Magisk",
     "homepage": "https://github.com/MustardChef/WSABuilds",
     "architecture": {
@@ -22,7 +22,7 @@
     ],
     "persist": "USER_DATA",
     "checkver": {
-        "url": "https://github.com/MustardChef/WSABuilds/releases/",
+        "github": "https://github.com/MustardChef/WSABuilds/",
         "regex": "Windows_10_WSA_(?<version>[\\d.]+)_x64"
     },
     "autoupdate": {
