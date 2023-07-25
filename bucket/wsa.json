@@ -9,9 +9,6 @@
         }
     },
     "extract_dir": "WSA_2306.40000.4.0_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon",
-    "installer": {
-        "file": "Run.bat"
-    },
     "checkver": {
         "url": "https://github.com/MustardChef/WSABuilds/releases/",
         "regex": "Windows_10_WSA_(?<version>[\\d.]+)_x64"
