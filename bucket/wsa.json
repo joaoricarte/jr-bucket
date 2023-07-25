@@ -8,7 +8,6 @@
             "hash": "e723472fe48e8771281bda0ea9521486cb6cc9fbd5d55504afd6cb9c7bc6e8fa"
         }
     },
-    "extract_dir": "WSA_$version_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon",
     "installer": {
         "file": "Run.bat"
     },
