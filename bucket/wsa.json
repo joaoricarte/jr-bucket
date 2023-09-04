@@ -14,7 +14,7 @@
     "extract_dir": "WSA_2307.40000.2.0_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon",
     "checkver": {
         "url": "https://github.com/MustardChef/WSABuilds/releases/",
-        "regex": "Windows_10_WSA_(?<version>[\\d.]+)_x64"
+        "regex": "WSA_(?<version>[\\d.]+)_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon_Windows_10.7z"
     },
     "autoupdate": {
         "architecture": {
