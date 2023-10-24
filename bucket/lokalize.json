@@ -1,0 +1,34 @@
+{
+    "version": "0",
+    "description": "Lokalize is the localization tool for KDE software and other free and open source software. It is also a general computer-aided translation system (CAT) with which you can translate OpenDocument files (*.odt). Translate-Toolkit is used internally to extract text for translation from .odt to .xliff files and to merge translation back into .odt file.",
+    "homepage": "https://apps.kde.org/lokalize/",
+    "license": "LGPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://binary-factory.kde.org/job/Lokalize_Release_win64/lastSuccessfulBuild/artifact/lokalize-0.7.5-rc1-567-windows-cl-msvc2019-x86_64-dbg.7z",
+            "hash": "6fca35b0ac7fa50942074b5814d1993d35bfcc3005d36e22cf1843cd30119670"
+        }
+    },
+    "bin": "bin\\lokalize.exe",
+    "shortcuts": [
+        [
+            "bin\\lokalize.exe",
+            "Lokalize"
+        ]
+    ],
+    "checkver": {
+        "url": "https://binary-factory.kde.org/job/Lokalize_Release_win64/",
+        "regex": "lokalize-([\\d.-]+)-rc([\\d.-]+)-windows-cl-msvc2019-x86_64-dbg\\.7z",
+        "replace": "${1}-rc${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://binary-factory.kde.org/job/Lokalize_Release_win64/lastSuccessfulBuild/artifact/lokalize-$version-windows-cl-msvc2019-x86_64.7z",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
