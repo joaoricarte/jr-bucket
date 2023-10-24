@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://binary-factory.kde.org/job/Step_Stable_win64/$preReleaseVersion/artifact/step-$version-windows-cl-$matchLib-x86_64.7z",
+                "url": "https://binary-factory.kde.org/job/Step_Stable_win64/lastSuccessfulBuild/artifact/step-$version-windows-cl-$matchLib-x86_64.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }
