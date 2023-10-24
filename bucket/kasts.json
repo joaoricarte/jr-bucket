@@ -1,0 +1,33 @@
+{
+    "version": "0",
+    "description": "Kasts is a convergent podcast application that looks good on desktop and mobile.",
+    "homepage": "https://apps.kde.org/kasts/",
+    "license": "LGPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://binary-factory.kde.org/job/Kasts_Stable_win64/lastSuccessfulBuild/artifact/kasts-23.08.2-454-windows-cl-msvc2019-x86_64.7z",
+            "hash": "9e1ea57d281c84c90b37277798760d694e0d80e2ff989fb3cd7b6036d76b55f2"
+        }
+    },
+    "bin": "bin\\kasts.exe",
+    "shortcuts": [
+        [
+            "bin\\kasts.exe",
+            "Kasts"
+        ]
+    ],
+    "checkver": {
+        "url": "https://binary-factory.kde.org/job/Kasts_Stable_win64/",
+        "regex": "kasts-([\\d.-]+)-windows-cl-msvc2019-x86_64\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://binary-factory.kde.org/job/Kasts_Stable_win64/lastSuccessfulBuild/artifact/kasts-$version-windows-cl-msvc2019-x86_64.7z",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
