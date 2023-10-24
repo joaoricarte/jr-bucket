@@ -9,10 +9,10 @@
             "hash": "3014a2885acafc52323c91e642faeab9557627481346050029deb720e1428a51"
         }
     },
-    "bin": "bin\\calligra.exe",
+    "bin": "bin\\calligragemini.exe",
     "shortcuts": [
         [
-            "bin\\calligra.exe",
+            "bin\\calligragemini.exe",
             "Calligra"
         ]
     ],
