@@ -1,0 +1,33 @@
+{
+    "version": "0",
+    "description": "Plan is a project management application. It is intended for managing moderately large projects with multiple resources.",
+    "homepage": "https://calligra.org/plan/",
+    "license": "LGPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://binary-factory.kde.org/job/Calligra_Release_win64/lastSuccessfulBuild/artifact/calligra-master-178-windows-cl-msvc2019-x86_64.7z",
+            "hash": "3014a2885acafc52323c91e642faeab9557627481346050029deb720e1428a51"
+        }
+    },
+    "bin": "bin\\calligraplan.exe",
+    "shortcuts": [
+        [
+            "bin\\calligraplan.exe",
+            "Plan"
+        ]
+    ],
+    "checkver": {
+        "url": "https://binary-factory.kde.org/job/CalligraPlan_Release_win64/",
+        "regex": "calligraplan-master-([\\d.-]+)-windows-cl-msvc2019-x86_64\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://binary-factory.kde.org/job/CalligraPlan_Release_win64/lastSuccessfulBuild/artifact/calligraplan-master-$version-windows-cl-msvc2019-x86_64.7z",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
