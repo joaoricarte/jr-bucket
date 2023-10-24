@@ -18,7 +18,8 @@
     ],
     "checkver": {
         "url": "https://binary-factory.kde.org/job/RKWard_Release_win64/",
-        "regex": "rkward-([\\d.-]+)-windows-cl-msvc2019-x86_64\\.7z"
+        "regex": "rkward-([\\d.-]+)-rc([\\d.-]+)-windows-cl-msvc2019-x86_64\\.7z",
+        "replace": "${1}-rc${2}"
     },
     "autoupdate": {
         "architecture": {
