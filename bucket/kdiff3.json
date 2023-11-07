@@ -1,12 +1,12 @@
 {
-    "version": "1.10-1241",
+    "version": "1.10-1242",
     "description": "KDiff3 is a file and folder diff and merge tool",
     "homepage": "https://apps.kde.org/kdiff3/",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/job/KDiff3_Stable_win64/lastSuccessfulBuild/artifact/kdiff3-1.10-1241-windows-cl-msvc2019-x86_64.7z",
-            "hash": "dc7b9c6477e2f4c6d3d5a2b3bb15f3dad55f69a51a55bdd0ca3dd4b35a4454d8"
+            "url": "https://binary-factory.kde.org/job/KDiff3_Stable_win64/lastSuccessfulBuild/artifact/kdiff3-1.10-1242-windows-cl-msvc2019-x86_64.7z",
+            "hash": "0d46ba7f89a58623e83400639c4876a7f44110e81690e8ce6615341d83627675"
         }
     },
     "bin": "bin\\kdiff3.exe",
