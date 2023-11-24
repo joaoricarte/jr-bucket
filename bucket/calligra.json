@@ -1,12 +1,12 @@
 {
-    "version": "208",
+    "version": "209",
     "description": "Calligra Suite is an office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.",
     "homepage": "https://calligra.org/",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/job/Calligra_Nightly_win64/lastSuccessfulBuild/artifact/calligra-master-208-windows-cl-msvc2019-x86_64.7z",
-            "hash": "0efdeccf808c9cca5cc86b11e42edb907d0d2b090b44ed0b47ca29f0c3229d8d"
+            "url": "https://binary-factory.kde.org/job/Calligra_Nightly_win64/lastSuccessfulBuild/artifact/calligra-master-209-windows-cl-msvc2019-x86_64.7z",
+            "hash": "d94ec0d18d30688bcfb111de529d19f3c0bdec57630c20bf2ec3b47f64468891"
         }
     },
     "bin": "bin\\calligragemini.exe",
