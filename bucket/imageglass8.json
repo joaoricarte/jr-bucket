@@ -34,8 +34,8 @@
     ],
     "checkver": {
         "url": "https://github.com/d2phap/ImageGlass/releases",
-        "regex": "ImageGlass 8.([\\d.{1}]+)",
-        "replace": "8.${1}"
+        "regex": "ImageGlass 8.(?<8Version>[\\d.{1}]+)",
+        "replace": "8.${8Version}"
     },
     "autoupdate": {
         "architecture": {
