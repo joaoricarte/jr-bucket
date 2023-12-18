@@ -32,6 +32,11 @@
         "Themes",
         "igconfig.xml"
     ],
+    "checkver": {
+        "url": "https://github.com/d2phap/ImageGlass/releases",
+        "regex": "ImageGlass_([\\d.]+)_x64.zip",
+        "replace": "8.11.12.6"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
