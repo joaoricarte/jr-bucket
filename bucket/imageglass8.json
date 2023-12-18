@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/d2phap/ImageGlass/releases/download/8.11.12.6/ImageGlass_8.11.12.6_x64.zip",
-            "hash": "",
+            "hash": "06badccef5aed9ad5c34b999260d2e50d43c8d41e983c97b3ed7988153c75987",
             "extract_dir": "ImageGlass_8.11.12.6_x64"
         }
     },
@@ -33,9 +33,9 @@
         "igconfig.xml"
     ],
     "checkver": {
-        "url": "https://github.com/d2phap/ImageGlass/releases",
-        "regex": "ImageGlass_([\\d.]+)_x64.zip",
-        "replace": "8.11.12.6"
+        "url": "https://imageglass.org/releases",
+        "regex": "ImageGlass 8.([\\d.]+)",
+        "replace": "8.${1}"
     },
     "autoupdate": {
         "architecture": {
