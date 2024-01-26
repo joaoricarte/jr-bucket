@@ -13,6 +13,6 @@
     "regex": "winfsp-([\\d.]+).msi"
   },
   "autoupdate": {
-    "url": "https://ghproxy.net/https://github.com/winfsp/winfsp/releases/download/v$majorVersion.$minorVersion/winfsp-$version.msi"
+    "url": "https://github.com/winfsp/winfsp/releases/download/v$majorVersion.$minorVersion/winfsp-$version.msi"
   }
 }
