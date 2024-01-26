@@ -8,7 +8,6 @@
   },
   "url": "https://ghproxy.net/https://github.com/winfsp/winfsp/releases/download/v2.0/winfsp-2.0.23075.msi",
   "hash": "6324dc81194a6a08f97b6aeca303cf5c2325c53ede153bae9fc4378f0838c101",
-  "extract_dir": "WinFsp",
   "checkver": {
     "github": "https://github.com/winfsp/winfsp",
     "regex": "winfsp-([\\d.]+).msi"
