@@ -1,5 +1,5 @@
 {
-    "version": "119.0.6045.214",
+    "version": "0",
     "description": "Chromium fork for linux named after radioactive element No. 90.",
     "license": "GNU General Public License v3.0",
     "homepage": "https://alex313031.blogspot.com/",
@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_$version.zip"
+                "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_$version_amd64.zip"
             }
         }
     }
