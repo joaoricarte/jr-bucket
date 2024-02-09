@@ -1,0 +1,22 @@
+{
+  "version": "0",
+  "description": "DiskTT measures the file system thruput under 32/64-bit windows using Windows core read and write functions.",
+  "homepage": "https://www.objectso.nl/",
+  "license": "Freeware",
+  "url": "http://www.hexagora.com/download/PerfMonZip.zip",
+  "bin": "DiskTT.exe",
+  "hash": "",
+  "shortcuts": [
+    [
+      "DiskTT.exe",
+      "DiskTT"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.objectso.nl/",
+    "re": "DiskTT · Disk Throughput Tester (?<version>[\\d.]+) R(?<release>[\\d]+) \(build (?<build>[\\d]+)\)"
+  },
+  "autoupdate": {
+    "url": "https://www.objectso.nl/software/DiskTT.zip"
+  }
+}
