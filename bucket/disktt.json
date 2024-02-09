@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://www.objectso.nl/",
-        "re": "DiskTT · Disk Throughput Tester (?<version>[\\d.]+) R(?<release>[\\d]+)"
+        "re": "DiskTT · Disk Throughput Tester (?<version>[\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.objectso.nl/software/DiskTT.zip"
