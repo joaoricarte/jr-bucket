@@ -6,8 +6,8 @@
     "notes": "If you want to get the latest development branch-based installer, please install `kate-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kdeconnect-kde-23.04.0-1322-windows-cl-msvc2019-x86_64-dbg.7z",
-            "hash": "b3d9d39dbe18de5124fd5f55e1b5746f12f6c923233764c8613101c91695e76c"
+            "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-23.04.0-2015-windows-cl-msvc2019-x86_64-dbg.7z",
+            "hash": "70eb06884d86b8927749316447b7a5c9ec6ef809464c5e5d74843e5d6d431194"
         }
     },
     "bin": "bin\\kate.exe",
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kdeconnect-kde-23.04.0-1322-windows-cl-msvc2019-x86_64-dbg.7z",
+                "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-23.04.0-2015-windows-cl-msvc2019-x86_64-dbg.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }
