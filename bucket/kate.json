@@ -6,10 +6,11 @@
     "notes": "If you want to get the latest development branch-based installer, please install `kate-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-23.04.0-2015-windows-cl-msvc2019-x86_64-dbg.7z",
-            "hash": "70eb06884d86b8927749316447b7a5c9ec6ef809464c5e5d74843e5d6d431194"
+            "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-23.04.0-2015-windows-cl-msvc2019-x86_64.exe",
+            "hash": "573c6e52749a4009b7d6f787c6a6c7f1cc09b0d57aa6a99c2d0cef6987b0e4a5"
         }
     },
+    "extract_dir": "kate-$version-windows-cl-msvc2019-x86_64.7z",
     "bin": "bin\\kate.exe",
     "shortcuts": [
         [
@@ -19,12 +20,12 @@
     ],
     "checkver": {
         "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/",
-        "regex": "kate-([\\d.-]+)-windows-cl-msvc2019-x86_64-dbg.7z"
+        "regex": "kate-([\\d.-]+)-windows-cl-msvc2019-x86_64.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-23.04.0-2015-windows-cl-msvc2019-x86_64-dbg.7z",
+                "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-$version-windows-cl-msvc2019-x86_64.exe",
                 "hash": {
                     "url": "$url.sha256"
                 }
