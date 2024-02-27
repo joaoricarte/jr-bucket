@@ -1,13 +1,13 @@
 {
-    "version": "0",
+    "version": "23.04.0-2015",
     "description": "Multi-document editor",
     "homepage": "https://kate-editor.org",
     "license": "LGPL-2.0-only",
     "notes": "If you want to get the latest development branch-based installer, please install `kate-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/job/Kate_Release_win64/2311/artifact/kate-23.08.4-2311-windows-cl-msvc2019-x86_64.7z",
-            "hash": "07f95e53f902b3ae76d8bb0dbf174f0bdcadd9f34a80950cb1ccf0246751c333"
+            "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-23.04.0-2015-windows-cl-msvc2019-x86_64.exe#/dl.7z",
+            "hash": "573c6e52749a4009b7d6f787c6a6c7f1cc09b0d57aa6a99c2d0cef6987b0e4a5"
         }
     },
     "bin": "bin\\kate.exe",
@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/",
-        "regex": "kate-([\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
+        "regex": "kate-([\\d.-]+)-windows-cl-msvc2019-x86_64.exe"
     },
     "autoupdate": {
         "architecture": {
