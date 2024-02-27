@@ -10,7 +10,6 @@
             "hash": "573c6e52749a4009b7d6f787c6a6c7f1cc09b0d57aa6a99c2d0cef6987b0e4a5"
         }
     },
-    "extract_dir": "kate-23.04.0-2015-windows-cl-msvc2019-x86_64.7z",
     "bin": "bin\\kate.exe",
     "shortcuts": [
         [
@@ -23,7 +22,6 @@
         "regex": "kate-([\\d.-]+)-windows-cl-msvc2019-x86_64.exe"
     },
     "autoupdate": {
-        "extract_dir": "kate-$version-windows-cl-msvc2019-x86_64.7z",
         "architecture": {
             "64bit": {
                 "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-$version-windows-cl-msvc2019-x86_64.exe#/dl.7z",
