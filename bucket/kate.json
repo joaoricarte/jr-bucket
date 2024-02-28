@@ -1,5 +1,5 @@
 {
-    "version": "23.04.0-2015",
+    "version": "0",
     "description": "Multi-document editor",
     "homepage": "https://kate-editor.org",
     "license": "LGPL-2.0-only",
@@ -10,6 +10,11 @@
             "hash": "573c6e52749a4009b7d6f787c6a6c7f1cc09b0d57aa6a99c2d0cef6987b0e4a5"
         }
     },
+    "pre_install": [
+        "Remove-Item \"$dir\\*\" -Exclude kate-*.7z -Recurse",
+        "Expand-7ZipArchive \"$dir\\kate-*.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\kate-*.7z\""
+    ],
     "bin": "bin\\kate.exe",
     "shortcuts": [
         [
@@ -19,12 +24,12 @@
     ],
     "checkver": {
         "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/",
-        "regex": "kate-([\\d.-]+)-windows-cl-msvc2019-x86_64.exe"
+        "regex": "kate-(?<version>.*)-windows-(?<lib>.*)\\.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-$version-windows-cl-msvc2019-x86_64.exe#/dl.7z",
+                "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-$version-windows-$matchLib.exe#/dl.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }
