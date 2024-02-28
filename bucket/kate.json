@@ -24,12 +24,12 @@
     ],
     "checkver": {
         "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/",
-        "regex": "kate-(?<version>.*)-windows-(?<lib>.*)\\.exe"
+        "regex": "kate-(?<version>.*)-windows-cl-msvc2019-x86_64.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-$version-windows-$matchLib.exe#/dl.7z",
+                "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-$version-windows-cl-msvc2019-x86_64.exe#/dl.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }
