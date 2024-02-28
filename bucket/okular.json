@@ -6,11 +6,12 @@
     "notes": "If you want to get the latest development branch-based installer, please install `okular-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/stable/release-service/23.04.3/windows/okular-23.04.3-1474-windows-cl-msvc2019-x86_64.exe",
+            "url": "https://download.kde.org/stable/release-service/23.04.3/windows/okular-23.04.3-1474-windows-cl-msvc2019-x86_64.exe#/dl.7z",
             "hash": "9e649e6b77a4d0bb074b2df2f75546709007fc13149930227aeeb8b31cd36936"
         }
     },
     "pre_install": [
+        "Remove-Item \"$dir\\*\" -Exclude kate-*.7z -Recurse",
         "Expand-7ZipArchive \"$dir\\okular-*.7z\" \"$dir\"",
         "Remove-Item \"$dir\\okular-*.7z\""
     ],
@@ -28,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/stable/release-service/23.04.3/windows/okular-$version-windows-cl-msvc2019-x86_64.exe",
+                "url": "https://download.kde.org/stable/release-service/23.04.3/windows/okular-$version-windows-cl-msvc2019-x86_64.exe#/dl.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }
