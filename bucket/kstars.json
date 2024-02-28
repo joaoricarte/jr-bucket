@@ -9,6 +9,11 @@
             "hash": "1aae71a4fdd58f1e3ee312c01dce0add9412f9b80eed76ab989878135f3ce2e0"
         }
     },
+    "pre_install": [
+        "Remove-Item \"$dir\\*\" -Exclude kstars-*.7z -Recurse",
+        "Expand-7ZipArchive \"$dir\\kstars-*.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\kstars-*.7z\""
+    ],
     "bin": "bin\\kstars.exe",
     "shortcuts": [
         [
