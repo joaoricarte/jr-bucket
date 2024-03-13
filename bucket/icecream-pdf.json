@@ -14,8 +14,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://icecreamapps.com/Download-PDF-Editor/",
-        "regex": "<strong>Version:</strong> ([\\d.]+)"
+        "url": "https://icecreamapps.com/PDF-Editor/",
+        "regex": "Version: ([\\d.]+) -"
     },
     "autoupdate": {
         "url": "http://download.icecreamapps.com/pdf_editor_setup.exe"
