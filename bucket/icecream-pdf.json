@@ -3,7 +3,7 @@
     "description": "Icecream PDF Editor",
     "license": "freeware",
     "version": "3.20",
-    "url": "http://download.icecreamapps.com/pdf_editor_setup.exe",
+    "url": "https://icecreamapps.com/download/pdf_editor_setup.exe",
     "hash": "953bb94711ad50e02f69a1a47aaf4ddec7b52803dec0312efcbbca49c7b693da",
     "innosetup": true,
     "bin": "icepdfeditor.exe",
@@ -18,6 +18,6 @@
         "regex": "Download v.([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://download.icecreamapps.com/pdf_editor_setup.exe"
+        "url": "https://icecreamapps.com/download/pdf_editor_setup.exe"
     }
 }
