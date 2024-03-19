@@ -24,8 +24,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://invent.kde.org/utilities/kate/-/jobs",
-        "regex": "([\\d.-]+)\: craft_windows_qt6_x86_64"
+        "url": "https://invent.kde.org/utilities/kate/-/jobs?statuses=SUCCESS",
+        "regex": "([\\d.-]+): craft_windows_qt6_x86_64"
     },
     "autoupdate": {
         "architecture": {
