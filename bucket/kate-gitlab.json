@@ -1,0 +1,37 @@
+{
+    "version": "0",
+    "description": "Multi-document editor",
+    "homepage": "https://kate-editor.org",
+    "license": "LGPL-2.0-only",
+    "notes": "If you want to get the latest development branch-based installer, please install `kate-nightly` from Versions bucket.",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-23.04.0-2015-windows-cl-msvc2019-x86_64.exe#/dl.7z",
+            "hash": "573c6e52749a4009b7d6f787c6a6c7f1cc09b0d57aa6a99c2d0cef6987b0e4a5"
+        }
+    },
+    "pre_install": [
+        "Move-Item \"$dir\\.kde-ci-packages\\kate-*.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\*\" -Exclude kate-*.7z -Recurse",
+        "Expand-7ZipArchive \"$dir\\kate-*.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\kate-*.7z\""
+    ],
+    "bin": "bin\\kate.exe",
+    "shortcuts": [
+        [
+            "bin\\kate.exe",
+            "Kate"
+        ]
+    ],
+    "checkver": {
+        "url": "https://invent.kde.org/utilities/kate/-/jobs",
+        "regex": "#([\\d]+): craft_windows_qt6_x86_64"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://invent.kde.org/utilities/kate/-/jobs/$version/artifacts/download?file_type=archive#/dl.7z"
+            }
+        }
+    }
+}
