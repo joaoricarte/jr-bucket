@@ -31,7 +31,7 @@
             "64bit": {
                 "url": "https://download.kde.org/stable/release-service/24.02.0/windows/kdeconnect-kde-$version-windows-$matchLib.exe#/dl.7z",
                 "hash": {
-                    "url": "$url.sha256"
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/windows/kdeconnect-kde-$version-windows-$matchLib.exe.sha256"
                 }
             }
         }
