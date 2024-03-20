@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/",
-        "regex": "kate-([\\d.-]+)-windows-cl-msvc2019-x86_64"
+        "regex": "kate.([\\d.-]+)-windows-cl-msvc2019-x86_64"
     },
     "autoupdate": {
         "architecture": {
