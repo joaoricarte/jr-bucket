@@ -1,12 +1,12 @@
 {
-    "version": "6758",
+    "version": "3040",
     "description": "Konsole is KDE's Terminal Emulator. A powerful and customizable terminal emulator.",
     "homepage": "https://konsole.kde.org/",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/utilities/kate/master/windows/kate-master-6758-windows-cl-msvc2022-x86_64.7z",
-            "hash": "30597c761cfceff89c5f97e49d625396cc779f9b2349d0d390a97700c1b8e35f"
+            "url": "https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-3040-windows-cl-msvc2022-x86_64.7z",
+            "hash": "a82900ae7a1a3fe766c2753cea521f733a680422f2bae95d7338dd605bd23e61"
         }
     },
     "bin": [
@@ -22,13 +22,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://cdn.kde.org/ci-builds/utilities/kate/master/windows/",
-        "regex": "kate-master-(\\d+)-windows-cl-msvc2022-x86_64.7z"
+        "url": "https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/",
+        "regex": "konsole-master-(\\d+)-windows-cl-msvc2022-x86_64.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn.kde.org/ci-builds/utilities/kate/master/windows/kate-master-$version-windows-cl-msvc2022-x86_64.7z",
+                "url": "https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-$version-windows-cl-msvc2022-x86_64.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }
