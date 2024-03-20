@@ -1,21 +1,21 @@
 {
-    "version": "23.04.0-2015",
+    "version": "6758",
     "description": "Multi-document editor",
     "homepage": "https://kate-editor.org",
     "license": "LGPL-2.0-only",
     "notes": "If you want to get the latest development branch-based installer, please install `kate-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-23.04.0-2015-windows-cl-msvc2019-x86_64.exe#/dl.7z",
-            "hash": "573c6e52749a4009b7d6f787c6a6c7f1cc09b0d57aa6a99c2d0cef6987b0e4a5"
+            "url": "https://cdn.kde.org/ci-builds/utilities/kate/master/windows/kate-master-6758-windows-cl-msvc2022-x86_64.7z",
+            "hash": "30597c761cfceff89c5f97e49d625396cc779f9b2349d0d390a97700c1b8e35f"
         }
     },
-    "pre_install": [
-        "Remove-Item \"$dir\\*\" -Exclude kate-*.7z -Recurse",
-        "Expand-7ZipArchive \"$dir\\kate-*.7z\" \"$dir\"",
-        "Remove-Item \"$dir\\kate-*.7z\""
+    "bin": [
+        [
+            "bin\\kate.exe",
+            "kate"
+        ]
     ],
-    "bin": "bin\\kate.exe",
     "shortcuts": [
         [
             "bin\\kate.exe",
@@ -23,13 +23,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/",
-        "regex": "kate.([\\d.-]+)-windows-cl-msvc2019-x86_64"
+        "url": "https://cdn.kde.org/ci-builds/utilities/kate/master/windows/",
+        "regex": "kate-master-(\\d+)-windows-cl-msvc2022-x86_64.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/Attic/release-service/23.04.0/windows/kate-$version-windows-cl-msvc2019-x86_64.exe#/dl.7z",
+                "url": "https://cdn.kde.org/ci-builds/utilities/kate/master/windows/kate-master-$version-windows-cl-msvc2022-x86_64.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }
