@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://download.kde.org/stable/release-service/24.02.0/windows/",
-        "regex": "kdeconnect-kde-(?<version>.*)-windows-cl-msvc2022-x86_64.exe"
+        "regex": "kdeconnect-kde-([\\d.-]+)-windows-cl-msvc2022-x86_64.exe"
     },
     "autoupdate": {
         "architecture": {
