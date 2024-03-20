@@ -6,7 +6,8 @@
     "notes": "If you want to get the latest development branch-based installer, please install `kate-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://invent.kde.org/utilities/kate/-/jobs/1665359/artifacts/download?file_type=archive#/dl.7z"
+            "url": "https://invent.kde.org/utilities/kate/-/jobs/1665359/artifacts/download?file_type=archive#/dl.7z",
+            "hash": "7a4b339541c87e0fe30eb20044506467524b3e0c2ce0223419644c243748f92e"
         }
     },
     "pre_install": [
@@ -15,16 +16,15 @@
         "Expand-7ZipArchive \"$dir\\kate-*.7z\" \"$dir\"",
         "Remove-Item \"$dir\\kate-*.7z\""
     ],
-    "bin": "bin\\kate.exe",
     "shortcuts": [
         [
             "bin\\kate.exe",
-            "Kate"
+            "Kate Gitlab"
         ]
     ],
     "checkver": {
         "url": "https://invent.kde.org/utilities/kate/-/jobs?statuses=SUCCESS",
-        "regex": "(\\d+): craft_windows"
+        "regex": "(\\d+): craft_windows_qt6_x86_64"
     },
     "autoupdate": {
         "architecture": {
