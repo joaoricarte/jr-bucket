@@ -1,5 +1,5 @@
 {
-    "version": "0",
+    "version": "23.08.1-1522",
     "description": "Universal document viewer",
     "homepage": "https://okular.kde.org",
     "license": "LGPL-2.0-only",
@@ -23,7 +23,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/search?q=repo%3Amicrosoft%2Fwinget-pkgs+path%3A%2F%5Emanifests%5C%2Fk%5C%2FKDE%5C%2FOkular%5C%2F%2F+cl-msvc2019-x86_64.exe&type=code",
+        "url": "https://download.kde.org/Attic/release-service/23.08.1/windows/",
         "regex": "okular-([\\d.-]+)-windows"
     },
     "autoupdate": {
