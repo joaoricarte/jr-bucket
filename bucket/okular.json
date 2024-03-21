@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://github.com/microsoft/winget-pkgs/commits/master/manifests/k/KDE/Okular",
-        "regex": "KDE.Okular version ([\\d.])+"
+        "regex": "KDE.Okular version ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
