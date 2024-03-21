@@ -23,13 +23,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/microsoft/winget-pkgs/commits/master/manifests/k/KDE/Okular",
-        "regex": "KDE.Okular version ([\\d.]+)"
+        "url": "https://github.com/search?q=repo%3Amicrosoft%2Fwinget-pkgs+windows%2Fokular&type=code",
+        "regex": "okular-([\\d.-]+)-windows-cl-msvc2019-x86_64.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/Attic/release-service/$version/windows/okular-$version-$matchbuild-windows-cl-msvc2019-x86_64.exe#/dl.7z",
+                "url": "https://download.kde.org/Attic/release-service/$matchHead/windows/okular-$version-windows-cl-msvc2019-x86_64.exe#/dl.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }
