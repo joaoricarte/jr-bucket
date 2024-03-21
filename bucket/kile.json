@@ -16,9 +16,7 @@
     ],
     "depends": [
         "latex",
-        "miktex",
-        "biber",
-        "okular"
+        "biber"
     ],
     "bin": "bin\\kile.exe",
     "shortcuts": [
