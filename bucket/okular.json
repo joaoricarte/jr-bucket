@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://github.com/search?q=repo%3Amicrosoft%2Fwinget-pkgs+windows%2Fokular&type=code",
-        "regex": "okular-([\\d.-]+)-windows-cl-msvc2019-x86_64.exe"
+        "regex": "-([\\d.-]+)-windows-cl-msvc2019-x86_64.exe"
     },
     "autoupdate": {
         "architecture": {
