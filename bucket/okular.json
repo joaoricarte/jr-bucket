@@ -23,8 +23,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/search?q=repo%3Amicrosoft%2Fwinget-pkgs+windows%2Fokular&type=code",
-        "regex": "-([\\d.-]+)-windows-cl-msvc2019-x86_64.exe"
+        "url": "https://github.com/search?q=repo%3Amicrosoft%2Fwinget-pkgs+path%3A%2F%5Emanifests%5C%2Fk%5C%2FKDE%5C%2FOkular%5C%2F%2F+cl-msvc2019-x86_64.exe&type=code",
+        "regex": "okular-([\\d.-]+)-windows"
     },
     "autoupdate": {
         "architecture": {
