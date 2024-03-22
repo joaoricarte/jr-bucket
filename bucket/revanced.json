@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://github.com/j-hc/revanced-magisk-module/releases/",
-        "regex": "revanced-magisk-module/tree/(?<build>\\d+)(?s).*Youtube: (?<version>[\\d.]+)"
+        "regex": "Youtube: (?<version>[\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
