@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://github.com/j-hc/revanced-magisk-module/releases/",
-        "regex": "download/(?<build>\\d+)/youtube-revanced-v(?<version>[\\d.]+)-all.apk"
+        "regex": "youtube-revanced-v(?<version>[\\d.]+)-all.apk"
     },
     "autoupdate": {
         "architecture": {
