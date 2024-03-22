@@ -1,0 +1,37 @@
+{
+    "version": "0",
+    "description": "ReVanced",
+    "homepage": "https://github.com/j-hc/revanced-magisk-module/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.kde.org/stable/release-service/24.02.0/windows/kdeconnect-kde-release_24.02-3692-windows-cl-msvc2022-x86_64.exe#/dl.7z",
+            "hash": "8f7eb541bbe21a5fb1800d5f362fe1ea25328631894c30e937bd4bc259327ebd"
+        }
+    },
+    "pre_install": [
+        "Copy-Item \"$dir\\*\" \"C:\\Users\\jricarte\\OneDrive - Lusospace, Lda\\Desktop\""
+        "Copy-Item \"$dir\\*\" \"C:\\Users\\jricarte\\OneDrive - Universidade de Lisboa\\Share\""
+    ],
+    "bin": "bin\\kdeconnect-cli.exe",
+    "shortcuts": [
+        [
+            "bin\\kdeconnect-app.exe",
+            "KDEConnect"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/j-hc/revanced-magisk-module/releases/tag/latest/",
+        "regex": "https://github.com/j-hc/revanced-magisk-module/releases/download/(?<build>\\d+)/youtube-revanced-v(?<version>[\\d.]+)-all.apk"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/j-hc/revanced-magisk-module/releases/download/$build/youtube-revanced-v$version-all.apk",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
