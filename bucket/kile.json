@@ -16,7 +16,8 @@
     ],
     "depends": [
         "latex",
-        "biber"
+        "biber",
+        "imagemagick"
     ],
     "bin": "bin\\kile.exe",
     "shortcuts": [
