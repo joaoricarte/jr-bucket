@@ -1,5 +1,5 @@
 {
-    "version": "4.",
+    "version": "0",
     "description": "Performance Monitor is a small program that shows you the CPU, Memory, Disk and Network utilization under Windows NT platforms",
     "homepage": "http://www.hexagora.com/en_dw_davperf.asp",
     "license": "Freeware",
@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "http://www.hexagora.com/en_dw_davperf.asp",
-        "re": "Version ([\\d.]+)"
+        "re": "Version (?version[\\d.]+)(\r\n|\r|\n)•
     },
     "autoupdate": {
         "url": "http://www.hexagora.com/download/PerfMonZip.zip"
