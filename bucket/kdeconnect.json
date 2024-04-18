@@ -20,6 +20,10 @@
         [
             "bin\\kdeconnect-app.exe",
             "KDEConnect"
+        ],
+        [
+            "bin\\kdeconnect-indicator.exe",
+            "KDEConnectIndicator"
         ]
     ],
     "checkver": {
