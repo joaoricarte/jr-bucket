@@ -1,0 +1,27 @@
+{
+    "version": "0",
+    "description": "Min2Tray - a utility for MS WindowsTM NT and higher to minimize and hide a window to system tray area of taskbar as icon.",
+    "homepage": "https://junyx.breadfan.de/Min2Tray/",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/benbuck/rbtray/releases/download/v4.14/x64.zip",
+    "hash": "0bc420262a583a06e41418547a151803d27739d5e6ccb79f0f1939e902e667ac",
+    "shortcuts": [
+        [
+            "Min2Tray.exe",
+            "Min2Tray"
+        ]
+    ],
+    "bin": [
+        [
+            "Min2Tray.exe",
+            "Min2Tray"
+        ]
+    ],
+    "checkver": {
+        "url": "https://junyx.breadfan.de/Min2Tray/",
+        "regex": "min2tray_(\\d.+)_install.7z"
+    },
+    "autoupdate": {
+        "url": "https://junyx.breadfan.de/dl/min2tray_$version_install.7z"
+    }
+}
