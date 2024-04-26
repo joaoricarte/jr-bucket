@@ -1,13 +1,13 @@
 {
-    "version": "23.08.1-1522",
+    "version": "23.08-4723",
     "description": "Universal document viewer",
     "homepage": "https://okular.kde.org",
     "license": "LGPL-2.0-only",
     "notes": "If you want to get the latest development branch-based installer, please install `okular-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/Attic/release-service/23.08.1/windows/okular-23.08.1-1522-windows-cl-msvc2019-x86_64.exe#/dl.7z",
-            "hash": "9410381b23891482be95d5f831c618efc8dd8fcdad607ed2997a009bd19d79c6"
+            "url": "https://cdn.kde.org/ci-builds/graphics/okular/release-23.08/windows/okular-release_23.08-4723-windows-cl-msvc2019-x86_64.7z",
+            "hash": "907dd02f7d18c01051ff5b1955dcfb3d9ef9624859edd0789ba8a675f83f93ef"
         }
     },
     "pre_install": [
@@ -23,13 +23,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://download.kde.org/Attic/release-service/23.08.1/windows/",
-        "regex": "okular-([\\d.-]+)-windows"
+        "url": "https://cdn.kde.org/ci-builds/graphics/okular/release-23.08/windows/",
+        "regex": "okular-release_([\\d.-]+)-windows-cl-msvc2019-x86_64.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/Attic/release-service/$matchHead/windows/okular-$version-windows-cl-msvc2019-x86_64.exe#/dl.7z",
+                "url": "https://cdn.kde.org/ci-builds/graphics/okular/release-23.08/windows/okular-release_$version-windows-cl-msvc2019-x86_64.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }
