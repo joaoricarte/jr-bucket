@@ -10,11 +10,6 @@
             "hash": "907dd02f7d18c01051ff5b1955dcfb3d9ef9624859edd0789ba8a675f83f93ef"
         }
     },
-    "pre_install": [
-        "Remove-Item \"$dir\\*\" -Exclude okular-*.7z -Recurse",
-        "Expand-7ZipArchive \"$dir\\okular-*.7z\" \"$dir\"",
-        "Remove-Item \"$dir\\okular-*.7z\""
-    ],
     "bin": "bin\\okular.exe",
     "shortcuts": [
         [
