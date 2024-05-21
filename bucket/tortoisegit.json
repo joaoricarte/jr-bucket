@@ -1,5 +1,5 @@
 {
-    "version": "0",
+    "version": "2.16.0.0",
     "description": "Windows Shell Interface to Git based on TortoiseSVN.",
     "homepage": "https://tortoisegit.org/",
     "license": {
@@ -67,11 +67,13 @@
                 "url": "https://download.tortoisegit.org/tgit/$version/TortoiseGit-$version-64bit.msi",
                 "hash": {
                     "url": "$url.rsa.asc"
+                }
             },
             "32bit": {
                 "url": "https://download.tortoisegit.org/tgit/$version/TortoiseGit-$version-32bit.msi",
                 "hash": {
                     "url": "$url.rsa.asc"
+                }
             }
         }
     }
