@@ -1,12 +1,12 @@
 {
-    "version": "2.3.8",
+    "version": "2.4.0",
     "description": "LyX is a document processor that encourages an approach to writing based on the structure of your documents",
     "homepage": "https://www.lyx.org/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://lyx.mirror.garr.it/bin/2.3.8/LyX-238-Installer-1-x64.exe#/dl.7z",
-            "hash": ""
+            "url": "https://lyx.mirror.garr.it/bin/2.4.0/LyX-240-Installer-1-x64.exe#/dl.7z",
+            "hash": "1d2af55110f1b42f949ea19096fa18c301ec6547082ac96563fe808ba4371b90"
         }
     },
     "installer": {
