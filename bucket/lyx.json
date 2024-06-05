@@ -6,11 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://lyx.mirror.garr.it/bin/2.3.8/LyX-238-Installer-1-x64.exe#/dl.7z",
-            "hash": "202c3381573e7b8aacd0dbad46a6bc09528af00129c801192f97d2390bcfc355"
-        },
-        "32bit": {
-            "url": "https://lyx.mirror.garr.it/bin/2.3.8/LyX-238-Installer-1-x32.exe#/dl.7z",
-            "hash": "958faf40c58752aa8b6227a65cb454cff6faf8db6f5bc696c18e0eddde030db0"
+                    https://lyx.mirror.garr.it/bin/2.4.0/LyX-240-Installer-1-x64.exe
         }
     },
     "installer": {
@@ -47,9 +43,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://lyx.mirror.garr.it/bin/$version/LyX-$matchCleanver-Installer$matchBuild-x64.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://lyx.mirror.garr.it/bin/$version/LyX-$matchCleanver-Installer$matchBuild-x32.exe#/dl.7z"
             }
         }
     }
