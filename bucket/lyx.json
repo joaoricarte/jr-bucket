@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://lyx.mirror.garr.it/bin/2.3.8/LyX-238-Installer-1-x64.exe#/dl.7z",
+            "hash": ""
         }
     },
     "installer": {
@@ -42,7 +43,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://lyx.mirror.garr.it/bin/$version/LyX-$matchCleanver-Installer$matchBuild-x64.exe#/dl.7z"
+                "url": "https://lyx.mirror.garr.it/bin/$version/LyX-$matchCleanver-Installer$matchBuild-x64.exe#/dl.7z",
+                "hash": $url.sig"
             }
         }
     }
