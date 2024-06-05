@@ -4,6 +4,7 @@
     "license": "LPPL,GPL2",
     "version": "2024-06-05",
     "url": "https://mirrors.up.pt/pub/CTAN/systems/texlive/tlnet/install-tl.zip",
+    "hash": "06b0269ee0d0c006fca9a741ec5fc0c7325231491db734514fb8ad703ca0b697",
     "installer": {
         "script": [
             "Write-Host 'Invoking TeX Live installer...' -ForegroundColor DarkCyan",

@@ -29,7 +29,11 @@
             "Remove-Item \"$dir\\compilepy.py\" -Force | Out-Null"
         ]
     },
-    "depends": "texlive",
+    "depends": [
+        "texlive",
+        "biber",
+        "imagemagick"
+    ],
     "shortcuts": [
         [
             "bin\\LyX.exe",
@@ -44,7 +48,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://lyx.mirror.garr.it/bin/$version/LyX-$matchCleanver-Installer$matchBuild-x64.exe#/dl.7z",
-                "hash": $url.sig"
+                "hash": {
+                    "url": "$url.sha512"
+                }
             }
         }
     }
