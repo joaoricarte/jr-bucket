@@ -49,7 +49,7 @@
             "64bit": {
                 "url": "https://lyx.mirror.garr.it/bin/$version/LyX-$matchCleanver-Installer$matchBuild-x64.exe#/dl.7z",
                 "hash": {
-                    "url": "$url.sha512"
+                    "url": "$url.sig"
                 }
             }
         }
