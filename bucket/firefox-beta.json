@@ -52,7 +52,7 @@
     ],
     "checkver": {
         "url": "https://www.mozilla.org/en-US/firefox/beta/notes/",
-        "regex": "Version ([\\d.]+)b([\\da-z]+) ",
+        "regex": "Version ([\\d.]+)b([\\da-z]+),",
         "replace": "${1}b${2}"
     },
     "autoupdate": {
