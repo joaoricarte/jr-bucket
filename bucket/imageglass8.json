@@ -31,7 +31,7 @@
         "igconfig.json"
     ],
     "checkver": {
-        "url": "https://github.com/d2phap/ImageGlass",
+        "url": "https://github.com/d2phap/ImageGlass/releases",
         "re": "ImageGlass 8([\\d.]+) ",
         "replace": "8.${1}"
     },
