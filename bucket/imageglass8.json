@@ -1,0 +1,46 @@
+{
+    "version": "0",
+    "description": "A lightweight, versatile image viewer",
+    "homepage": "https://imageglass.org",
+    "license": "GPL-3.0-only",
+    "notes": "If this app doesn't work maybe you need to clean '$dir\\igconfig.json' and reinstall '$dir\\Themes'.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/d2phap/ImageGlass/releases/download/9.1.7.627/ImageGlass_9.1.7.627_x64.zip",
+            "hash": "928daf93dd02bd59539fd929b9269fb00ec3e1d8fdda94f704f51df57064d657",
+            "extract_dir": "ImageGlass_9.1.7.627_x64"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\igconfig.json\")) {",
+        "    Add-Content \"$dir\\igconfig.json\" '{\"AutoUpdate\": \"0\"}' -Encoding utf8",
+        "}"
+    ],
+    "bin": [
+        "ImageGlass.exe",
+        "igcmd.exe"
+    ],
+    "shortcuts": [
+        [
+            "ImageGlass.exe",
+            "ImageGlass"
+        ]
+    ],
+    "persist": [
+        "Themes",
+        "igconfig.json"
+    ],
+    "checkver": {
+        "url": "https://github.com/d2phap/ImageGlass",
+        "re": "ImageGlass 8([\\d.]+) ",
+        "replace": "8.${1}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip",
+                "extract_dir": "ImageGlass_$version_x64"
+            }
+        }
+    }
+}
