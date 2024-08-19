@@ -20,6 +20,10 @@
     },
     "autoupdate": {
         "url": "https://www.klayout.org/downloads/Windows/klayout-$version-win64.zip",
-        "extract_dir": "klayout-$version-win64"
+        "extract_dir": "klayout-$version-win64",
+        "hash": {
+            "url": "https://www.klayout.de/build.html",
+            "find": "md5\">([A-Fa-f\\d]{32})"
+        }
     }
 }
