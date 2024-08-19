@@ -24,8 +24,8 @@
         "hash": {
             "url": "https://www.klayout.de/build.html",
             "re": [
-                "win64.zip .64bit binaries.(.|",
-                ")*MD5: ([A-Fa-f\\d]{32})"
+                "win64.zip .64bit binaries..*",
+                "MD5: ([A-Fa-f\\d]{32})"
             ]
         }
     }
