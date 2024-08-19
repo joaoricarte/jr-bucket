@@ -1,5 +1,5 @@
 {
-    "version": "0.29.6",
+    "version": "0",
     "description": "KLayout is a GDS and OASIS file viewer and editor",
     "homepage": "https://www.klayout.de/intro.html",
     "license": "GPL",
@@ -23,7 +23,7 @@
         "extract_dir": "klayout-$version-win64",
         "hash": {
             "url": "https://www.klayout.de/build.html",
-            "re": "win64.zip</a> (64bit binaries)<br/><small>MD5: <tt>([A-Fa-f0-9]{32})"
+            "re": "win64.zip \(64bit binaries\).*?MD5: ([A-Fa-f0-9]{32})"
         }
     }
 }
