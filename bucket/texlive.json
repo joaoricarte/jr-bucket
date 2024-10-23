@@ -2,10 +2,10 @@
     "homepage": "https://tug.org/texlive/",
     "description": "TeX Live is a cross-platform, free software distribution for the TeX typesetting system",
     "license": "LPPL,GPL2",
-    "version": "2024-10-15",
-    "url": "https://mirrors.up.pt/pub/CTAN/systems/texlive/tlnet/install-tl.zip",
+    "version": "2024-10-22",
+    "url": "http://ftp.cstug.cz/pub/tex/tlnet/install-tl.zip",
     "notes": "It is recommended to run the \"scoop hold texlive\" command to disable updates of texlive.",
-    "hash": "sha512:a4d7ae9f3a42355326b53287c13f8c16f2abfae2eaa1e35e30d991fae51e114346243d9dad6278767945ecf92cc0824d1c08c56031ec1ee6fb48ce298ec1784c",
+    "hash": "sha512:486dd58331a66499352d9878dda9b7f1630ca25b1cd726632bcc67078939582f4a8ae8a7ac5a920a2a0153b62413f939be3ffc833bc61a2a852e00d473b0014a",
     "installer": {
         "script": [
             "Write-Host 'Invoking TeX Live installer...' -ForegroundColor DarkCyan",
@@ -45,11 +45,11 @@
     ],
     "persist": "texmf-config",
     "checkver": {
-        "url": "https://mirrors.up.pt/pub/CTAN/systems/texlive/tlnet/",
+        "url": "http://ftp.cstug.cz/pub/tex/tlnet/",
         "regex": "install-tl.zip.sha512.*?([\\d-]+) "
     },
     "autoupdate": {
-        "url": "https://mirrors.up.pt/pub/CTAN/systems/texlive/tlnet/install-tl.zip",
+        "url": "http://ftp.cstug.cz/pub/tex/tlnet/install-tl.zip",
         "hash": {
             "url": "$url.sha512"
         }
