@@ -4,7 +4,7 @@
     "homepage": "https://www.klayout.de/intro.html",
     "license": "GPL",
     "url": "https://www.klayout.org/downloads/Windows/klayout-0.29.8-win64.zip",
-    "hash": "md5:474f0dfe00f1b16fbdae5b52922ce872",
+    "hash": "d2f3e1a45d9d2462dc492812b18e1e6edf54af0af6b97dc06965d06b7056d945",
     "extract_dir": "klayout-0.29.8-win64",
     "extract_to": "",
     "bin": "klayout_app.exe",
@@ -22,8 +22,8 @@
         "url": "https://www.klayout.org/downloads/Windows/klayout-$version-win64.zip",
         "extract_dir": "klayout-$version-win64",
         "hash": {
-            "url": "https://www.klayout.de/build.html#collapse17",
-            "find": "$md5"
+            "url": "https://www.klayout.de/build.html",
+            "re": "win64-install.exe<.a> .64bit installer.<br.><small>MD5: <tt>([A-Fa-f\\d]{32})"
         }
     }
 }
