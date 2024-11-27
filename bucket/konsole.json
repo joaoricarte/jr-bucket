@@ -1,12 +1,12 @@
 {
-    "version": "3693",
+    "version": "3704",
     "description": "Konsole is KDE's Terminal Emulator. A powerful and customizable terminal emulator.",
     "homepage": "https://konsole.kde.org/",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-3693-windows-cl-msvc2022-x86_64.7z",
-            "hash": "00628d7831c607e79744c3854177d8e91fe08c7cb6ba12b0be611069aeae3981"
+            "url": "https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-3704-windows-cl-msvc2022-x86_64.7z",
+            "hash": "ba7ccf889fcf4001333c3ffc086e743c823e950bf77fdc62d6bae71e0733d701"
         }
     },
     "bin": [
