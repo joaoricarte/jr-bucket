@@ -21,6 +21,9 @@
             "Thorium"
         ]
     ],
+    "env_set": {
+        "CHROME_EXECUTABLE": "$dir\\thorium.exe"
+    },
     "persist": "USER_DATA",
     "checkver": {
         "url": "https://api.github.com/repos/Alex313031/Thorium-Win/releases/latest",
