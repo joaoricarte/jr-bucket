@@ -1,5 +1,5 @@
 {
-    "version": "128.0.0.0",
+    "version": "128.0.6613.189",
     "description": "Chromium fork for linux named after radioactive element No. 90.",
     "license": "GNU General Public License v3.0",
     "homepage": "https://alex313031.blogspot.com/",
@@ -47,4 +47,3 @@
         }
     }
 }
-START "" "%cd%\BIN\thorium.exe" --user-data-dir="%~dp0%\USER_DATA" --allow-outdated-plugins --disable-logging --disable-breakpad --disable-encryption --disable-machine-id
