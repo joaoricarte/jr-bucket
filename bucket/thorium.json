@@ -1,5 +1,5 @@
 {
-    "version": "128.0.6613.189",
+    "version": "128.0.0.0",
     "description": "Chromium fork for linux named after radioactive element No. 90.",
     "license": "GNU General Public License v3.0",
     "homepage": "https://alex313031.blogspot.com/",
@@ -11,19 +11,28 @@
     },
     "bin": [
         [
-            "THORIUM.BAT",
-            "Thorium"
+            "bin\\thorium.exe",
+            "thorium",
+            "--user-data-dir=\"$dir\\USER_DATA\"",
+            "--allow-outdated-plugins",
+            "--disable-logging",
+            "--disable-breakpad",
+            "--disable-encryption",
+            "--disable-machine-id"
         ]
     ],
     "shortcuts": [
         [
-            "THORIUM.BAT",
-            "Thorium"
+            "bin\\thorium.exe",
+            "Thorium",
+            "--user-data-dir=\"$dir\\USER_DATA\"",
+            "--allow-outdated-plugins",
+            "--disable-logging",
+            "--disable-breakpad",
+            "--disable-encryption",
+            "--disable-machine-id"
         ]
     ],
-    "env_set": {
-        "CHROME_EXECUTABLE": "$dir\\thorium.exe"
-    },
     "persist": "USER_DATA",
     "checkver": {
         "url": "https://api.github.com/repos/Alex313031/Thorium-Win/releases/latest",
@@ -38,3 +47,4 @@
         }
     }
 }
+START "" "%cd%\BIN\thorium.exe" --user-data-dir="%~dp0%\USER_DATA" --allow-outdated-plugins --disable-logging --disable-breakpad --disable-encryption --disable-machine-id
