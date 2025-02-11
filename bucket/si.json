@@ -4,10 +4,7 @@
     "license": "GPL",
     "url": "https://github.com/joaoricarte/jr-bucket/releases/download/v1.0/si.ps1",
     "hash": "",
-    "bin": [
-        "si.ps1",
-        "si"
-    ],
+    "bin": "si.ps1",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/joaoricarte/jr-bucket/releases/download/v1.0/si.ps1"
