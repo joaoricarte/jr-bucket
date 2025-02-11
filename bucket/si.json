@@ -5,9 +5,9 @@
     "url": "https://github.com/joaoricarte/jr-bucket/releases/download/v1.0/si.ps1",
     "hash": "",
     "bin": [
+        "si.ps1",
         [
-            "si.ps1",
-            "si",
+            "powershell si.ps1",
             "si"
         ]
     ],
