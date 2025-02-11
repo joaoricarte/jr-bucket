@@ -2,14 +2,14 @@
     "version": "1.0",
     "homepage": "https://github.com/joaoricarte/jr-bucket",
     "license": "GPL",
-    "url": "https://github.com/joaoricarte/jr-bucket/blob/main/ps1/ci.ps1",
+    "url": "https://github.com/joaoricarte/jr-bucket/blob/main/ps1/cin.ps1",
     "hash": "",
     "bin": [
-        "ci.ps1",
-        "ci"
+        "cin.ps1",
+        "cin"
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/joaoricarte/jr-bucket/blob/main/ps1/ci.ps1"
+        "url": "https://github.com/joaoricarte/jr-bucket/blob/main/ps1/cin.ps1"
     }
 }
