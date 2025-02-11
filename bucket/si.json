@@ -1,13 +1,13 @@
 {
-    "version": "0",
+    "version": "1.0",
     "homepage": "https://github.com/joaoricarte/jr-bucket",
     "license": "GPL",
     "url": "https://github.com/joaoricarte/jr-bucket/releases/download/v1.0/si.ps1",
-    "hash": "c88f0e1513587f371ad6d847b83a0bbcc20120cc52731a96d10455a3ceee2837",
+    "hash": "",
     "bin": [
         [
-        "si.ps1",
-        "si"
+            "si.ps1",
+            "si"
         ]
     ],
     "checkver": "github",
