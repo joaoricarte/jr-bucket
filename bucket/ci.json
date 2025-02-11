@@ -1,5 +1,5 @@
 {
-    "version": "0",
+    "version": "1.0",
     "homepage": "https://github.com/joaoricarte/jr-bucket",
     "license": "GPL",
     "url": "https://github.com/joaoricarte/jr-bucket/blob/main/ps1/ci.ps1",
@@ -7,7 +7,7 @@
     "bin": [
         "ci.ps1",
         "ci"
-        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/joaoricarte/jr-bucket/blob/main/ps1/ci.ps1"
