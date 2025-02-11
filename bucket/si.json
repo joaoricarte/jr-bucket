@@ -9,7 +9,7 @@
         "si.ps1",
         "si"
         ]
-    ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/joaoricarte/jr-bucket/releases/download/v1.0/si.ps1",
