@@ -15,6 +15,4 @@ if ((Test-Admin) -eq $false)  {
 }
 
 'running with full privileges'
-choco install --y $args
-# Prevent window from closing
-Read-Host "Press Enter to exit"
+winget upgrade --all --include-unknown --scope user
