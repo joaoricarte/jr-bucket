@@ -2,7 +2,7 @@
     "version": "1.2",
     "homepage": "https://github.com/joaoricarte/jr-bucket",
     "license": "GPL",
-    "url": "https://github.com/joaoricarte/jr-bucket/releases/download/v1.2/si.ps1",
+    "url": "https://github.com/joaoricarte/jr-bucket/releases/download/v1.2/sin.ps1",
     "hash": "",
     "bin": [
         [
@@ -12,6 +12,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/joaoricarte/jr-bucket/releases/download/v$version/si.ps1"
+        "url": "https://github.com/joaoricarte/jr-bucket/releases/download/v$version/sin.ps1"
     }
 }
