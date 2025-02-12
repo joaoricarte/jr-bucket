@@ -6,8 +6,8 @@
     "hash": "",
     "bin": [
         [
-            "si.ps1",
-            "si"
+            "sin.ps1",
+            "sin"
         ]
     ],
     "checkver": "github",
