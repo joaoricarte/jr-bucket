@@ -7,15 +7,13 @@
     "bin": [
         [
             "Screenpresso.exe",
-            "screenpresso",
-            "--portablemode"
+            "screenpresso"
         ]
     ],
     "shortcuts": [
         [
             "Screenpresso.exe",
-            "Screenpresso",
-            "--portablemode"
+            "Screenpresso"
         ]
     ],
     "persist": "Medias",
