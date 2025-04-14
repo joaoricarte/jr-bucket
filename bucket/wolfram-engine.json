@@ -28,6 +28,7 @@
             "Wolfram Player"
         ]
     ],
+    "env_add_path": "",
     "autoupdate": {
         "url": "http://files.wolframcdn.com/packages/winget/$majorVersion.$minorVersion.0.0/WolframEngine_$majorVersion.$minorVersion.0_WIN.msi",
         "extract_dir": "Wolfram Research\\Wolfram Engine\\$majorVersion.$minorVersion",
