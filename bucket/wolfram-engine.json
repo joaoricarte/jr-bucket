@@ -7,7 +7,7 @@
         "url": "https://www.wolfram.com/legal/terms/wolfram-engine.html"
     },
     "url": "http://files.wolframcdn.com/packages/winget/13.3.0.0/WolframEngine_13.3.0_WIN.msi",
-    "hash": "",
+    "hash": "9e1dc5bb172ab80829544008b4127744af7472f808ac87dd33527481a9bf1a27",
     "extract_dir": "Wolfram Research\\Wolfram Engine\\13.3",
     "bin": [
         "math.exe",
