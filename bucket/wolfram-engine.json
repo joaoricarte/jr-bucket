@@ -1,15 +1,33 @@
 {
-    "version": "14.1.0",
+    "version": "13.3.0",
     "description": "Locally downloadable Wolfram Engine to put computational intelligence into your applications.",
     "homepage": "https://www.wolfram.com/engine",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.wolfram.com/legal/terms/wolfram-engine.html"
     },
-    "url": "http://files.wolframcdn.com/packages/winget/14.1.0.0/WolframEngine_14.1.0_WIN.msi",
+    "url": "http://files.wolframcdn.com/packages/winget/13.3.0.0/WolframEngine_13.3.0_WIN.msi",
     "hash": "",
-    "extract_dir": "Wolfram Research\\Wolfram Engine\\14.1",
-    "env_add_path": "",
+    "extract_dir": "Wolfram Research\\Wolfram Engine\\13.3",
+    "bin": [
+        "math.exe",
+        "wolfram.exe",
+        "wolframscript.exe"
+    ],
+    "shortcuts": [
+        [
+            "MathKernel.exe",
+            "Math Kernel"
+        ],
+        [
+            "WolframKernel.exe",
+            "Wolfram Kernel"
+        ],
+        [
+            "WolframPlayer.exe",
+            "Wolfram Player"
+        ]
+    ],
     "autoupdate": {
         "url": "http://files.wolframcdn.com/packages/winget/$majorVersion.$minorVersion.0.0/WolframEngine_$majorVersion.$minorVersion.0_WIN.msi",
         "extract_dir": "Wolfram Research\\Wolfram Engine\\$majorVersion.$minorVersion",
