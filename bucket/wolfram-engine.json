@@ -1,18 +1,18 @@
 {
-    "version": "11",
+    "version": "2.656.167",
     "description": "Locally downloadable Wolfram Engine to put computational intelligence into your applications.",
     "homepage": "https://www.wolfram.com/engine",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.wolfram.com/legal/terms/wolfram-engine.html"
     },
-    "url": "http://files.wolframcdn.com/packages/winget/11..0.0/WolframEngine_11..0_WIN.msi",
+    "url": "http://files.wolframcdn.com/packages/winget/2.656.0.0/WolframEngine_2.656.0_WIN.msi",
     "hash": "",
-    "extract_dir": "Wolfram Research\\Wolfram Engine\\11.",
+    "extract_dir": "Wolfram Research\\Wolfram Engine\\2.656",
     "env_add_path": "",
     "checkver": {
         "url": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/w/WolframResearch/WolframEngine",
-        "regex": "([\\d.]+)"
+        "regex": "(\\d+\\.\\d+\\.\\d+)"
     },
     "autoupdate": {
         "url": "http://files.wolframcdn.com/packages/winget/$majorVersion.$minorVersion.0.0/WolframEngine_$majorVersion.$minorVersion.0_WIN.msi",
