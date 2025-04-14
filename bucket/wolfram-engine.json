@@ -12,7 +12,7 @@
   "env_add_path": "",
   "checkver": {
     "url": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/w/WolframResearch/WolframEngine",
-    "regex": "WolframResearch.WolframEngine version ([\\d.]+) ("
+    "regex": "WolframResearch.WolframEngine version ([\\d.]+) "
   },
   "autoupdate": {
     "url": "http://files.wolframcdn.com/packages/winget/$majorVersion.$minorVersion.0.0/WolframEngine_$majorVersion.$minorVersion.0_WIN.msi",
