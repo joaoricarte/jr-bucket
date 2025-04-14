@@ -1,5 +1,5 @@
 {
-  "version": "14.2.0",
+  "version": "14.0.0",
   "description": "Locally downloadable Wolfram Engine to put computational intelligence into your applications.",
   "homepage": "https://www.wolfram.com/engine",
   "license": {
@@ -11,8 +11,8 @@
   "extract_dir": "Wolfram Research\\Wolfram Engine\\14.2",
   "env_add_path": "",
   "checkver": {
-    "url": "https://www.wolfram.com/engine/",
-    "regex": "https://account.wolfram.com/dl/WolframEngine?version=([\\d.]+)&"
+    "url": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/w/WolframResearch/WolframEngine",
+    "regex": "manifests/w/WolframResearch/WolframEngine/([\\d.]+)-item"
   },
   "autoupdate": {
     "url": "http://files.wolframcdn.com/packages/winget/$majorVersion.$minorVersion.0.0/WolframEngine_$majorVersion.$minorVersion.0_WIN.msi",
