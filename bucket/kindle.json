@@ -1,10 +1,10 @@
 {
-    "version": "2.6.70964",
+    "version": "2.7.70978",
     "description": "Kindle for PC",
     "homepage": "https://amazon.com/kindleapps",
     "license": "Proprietary",
-    "url": "https://amazon.com/kindlepcdownload#/dl.7z",
-    "hash": "b1988b305420c68bfde3952b9bda35d567fa0836f616a68e708779578819c9bf",
+    "url": "https://amazon.com/kindlepcdownload",
+    "hash": "0a2dc0db4c32970d7d72a3c3e9e5e48aa34c2fad56dd11ad9e55a7ef11d71e84",
     "shortcuts": [
         [
             "Kindle.exe",
@@ -12,8 +12,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://amazon.com/kindlepcdownload",
-        "regex": "KindleForPC-installer-([\\d.]+)\\.exe"
+        "url": "https://filehippo.com/download_kindle-for-pc/",
+        "regex": "version ([\\d.]+) of Kindle"
     },
     "autoupdate": {
         "url": "https://amazon.com/kindlepcdownload"
