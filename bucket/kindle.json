@@ -16,6 +16,6 @@
         "regex": "version ([\\d.]+) of Kindle"
     },
     "autoupdate": {
-        "url": "https://amazon.com/kindlepcdownload"
+        "url": "https://amazon.com/kindlepcdownload#/dl.7z"
     }
 }
