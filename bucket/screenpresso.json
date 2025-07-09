@@ -1,7 +1,7 @@
 {
     "homepage": "https://www.screenpresso.com/",
     "license": "https://www.screenpresso.com/software-license-agreement/",
-    "version": "for",
+    "version": "2.1.37",
     "url": "https://www.screenpresso.com/binaries/releases/stable/dotnet47/Screenpresso.exe",
     "hash": "5b46ef414994859ba9775df077ef682a13f70a833442f89db47c9a67a7ddb15d",
     "bin": [
@@ -26,7 +26,7 @@
     "persist": "Medias",
     "checkver": {
         "url": "https://screenpresso.en.uptodown.com/windows",
-        "re": "Screenpresso ([\\w\\.]+)"
+        "re": "Screenpresso ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.screenpresso.com/binaries/releases/stable/dotnet47/Screenpresso.exe"
