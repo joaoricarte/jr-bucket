@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.indilib.org/jdownloads/kstars/kstars-3.7.7.exe#/dl.7z",
-            "hash": "d0520df3f96322903649d922c4b9fbef60a6230d1550662c76e7c850baff272d"
+            "hash": "c68a5a883dff9ee21bfbce450c1dc5ba5f02b96f3a42afcab3cb287f56f3f80b"
         }
     },
     "pre_install": [
