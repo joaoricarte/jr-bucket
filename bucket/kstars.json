@@ -1,12 +1,12 @@
 {
-    "version": "3.7.7",
+    "version": "3.7.8",
     "description": "KStars is freely licensed, open source, cross-platform Astronomy Software by KDE.",
     "homepage": "https://apps.kde.org/kstars/",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://www.indilib.org/jdownloads/kstars/kstars-3.7.7.exe#/dl.7z",
-            "hash": "c68a5a883dff9ee21bfbce450c1dc5ba5f02b96f3a42afcab3cb287f56f3f80b"
+            "url": "https://www.indilib.org/jdownloads/kstars/kstars-3.7.8.exe#/dl.7z",
+            "hash": "6ab5f5cdbe3481260a1ea4b7e98aefa80ed55938643aac050aef0490ac34e7c5"
         }
     },
     "pre_install": [
