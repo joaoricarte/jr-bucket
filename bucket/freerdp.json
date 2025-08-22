@@ -1,10 +1,18 @@
 {
-    "version": "3.17.0",
+    "version": "1825",
     "description": "A free implementation of the Remote Desktop Protocol (RDP).",
-    "homepage": "https://github.com/FreeRDP/FreeRDP",
+    "homepage": "https://www.freerdp.com/",
     "license": "Apache-2.0",
-    "url": "https://github.com/FreeRDP/FreeRDP/releases/download/3.17.0/freerdp-3.17.0.zip",
-    "hash": "4835be2f36038c90814c5a1c0526541124859b0ec295a6a60894159ca57aee01",
+    "architecture": {
+        "64bit": {
+            "url": "https://ci.freerdp.com/job/freerdp-nightly-windows/1825/arch=win64,label=vs2017/artifact/*zip*/archive.zip",
+            "hash": "3bee0bb05ecce4c744e8bf3b4d4f6c8bf0a9c18dab0180dd13a42875cf601a02"
+        },
+        "32bit": {
+            "url": "https://ci.freerdp.com/job/freerdp-nightly-windows/1825/arch=win32,label=vs2017/artifact/*zip*/archive.zip",
+            "hash": "6d86099891b3c28b07911b66add2afe420453fe950c052ed9ab4926ac404f3b2"
+        }
+    },
     "extract_dir": "archive\\install\\bin",
     "bin": [
         "freerdp-proxy.exe",
@@ -15,8 +23,18 @@
         "winpr-hash.exe",
         "winpr-makecert.exe"
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://ci.freerdp.com/job/freerdp-nightly-windows/api/json",
+        "jsonpath": "$.lastSuccessfulBuild.number"
+    },
     "autoupdate": {
-        "url": "https://github.com/FreeRDP/FreeRDP/releases/download/$version/freerdp-$version.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://ci.freerdp.com/job/freerdp-nightly-windows/$version/arch=win64,label=vs2017/artifact/*zip*/archive.zip"
+            },
+            "32bit": {
+                "url": "https://ci.freerdp.com/job/freerdp-nightly-windows/$version/arch=win32,label=vs2017/artifact/*zip*/archive.zip"
+            }
+        }
     }
 }
