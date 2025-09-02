@@ -24,6 +24,13 @@
 			"RealTimeSync"		
 		]
     ],
+    "checkver": {
+		"regex" : "FreeFileSync_(\\d+\\.\\d+)_Windows_Setup.exe",
+		"url" : "https://freefilesync.org/download.php"
+	},
+	"autoupdate": {
+		"url": "https://freefilesync.org/download/FreeFileSync_$version_Windows_Setup.exe"
+	},
 	"notes":  "You will see an error the first time you run the app. Close the app, and then re-open it."
 
 }
