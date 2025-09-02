@@ -5,7 +5,7 @@
         "identifier": "GPL-3.0-only"
     },
     "description": "FreeFileSync is a folder comparison and synchronization software that creates and manages backup copies of all your important files.",
-    "url": "https://freefilesync.org/download/FreeFileSync_13.6_Windows_Setup.exe",
+    "url": "https://freefilesync.org/download/FreeFileSync_14.4_Windows_Setup.exe",
     "hash": "",
     "innosetup": true,
     "pre_install": [
@@ -32,11 +32,7 @@
         "url": "https://freefilesync.org/download.php"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://freefilesync.org/download/FreeFileSync_$version_Windows_Setup.exe"
-            }
-        }
+        "url": "https://freefilesync.org/download/FreeFileSync_$version_Windows_Setup.exe"
     },
     "notes": "You will see an error the first time you run the app. Close the app, and then re-open it."
 }
