@@ -24,8 +24,8 @@
         ]
     },
     "checkver": {
-        "url": "https://www.scilab.org/download",
-        "regex": "Scilab ([\\d.]+)"
+        "url": "http://www.scilab.org/latest",
+        "regex": "https://www.scilab.org/download/scilab-([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
