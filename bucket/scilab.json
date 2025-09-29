@@ -25,7 +25,7 @@
     },
     "checkver": {
         "url": "https://gitlab.com/scilab/scilab/-/releases",
-        "regex": "https://gitlab.com/scilab/scilab/-/releases/([\\d.]+)"
+        "regex": "Scilab ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
