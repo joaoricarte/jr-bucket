@@ -23,7 +23,10 @@
             "/FORCECLOSEAPPLICATIONS"
         ]
     },
-    "checkver": "gitlab",
+    "checkver": "gitlab",{
+        "url": "https://gitlab.com/scilab/scilab/-/tags/",
+        "regex": "https://gitlab.com/scilab/scilab/-/tags/([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
