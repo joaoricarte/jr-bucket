@@ -1,7 +1,7 @@
 {
     "homepage": "https://gitlab.com/scilab/scilab/",
     "description": "Open source software for numerical computation",
-    "version": "0",
+    "version": "2025.1.0",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
@@ -25,7 +25,7 @@
     },
     "checkver": {
         "url": "https://gitlab.com/scilab/scilab/-/tags/",
-        "regex": "https://gitlab.com/scilab/scilab/-/tags/([\\d.]+)"
+        "regex": "Scilab ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
