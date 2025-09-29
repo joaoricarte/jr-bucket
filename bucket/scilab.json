@@ -23,7 +23,7 @@
             "/FORCECLOSEAPPLICATIONS"
         ]
     },
-    "checkver": "gitlab",{
+    "checkver": {
         "url": "https://gitlab.com/scilab/scilab/-/tags/",
         "regex": "https://gitlab.com/scilab/scilab/-/tags/([\\d.]+)"
     },
