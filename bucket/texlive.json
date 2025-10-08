@@ -2,10 +2,10 @@
     "homepage": "https://tug.org/texlive/",
     "description": "TeX Live is a cross-platform, free software distribution for the TeX typesetting system",
     "license": "LPPL,GPL2",
-    "version": "2025-10-06",
+    "version": "2025-10-07",
     "url": "http://ftp.cstug.cz/pub/tex/tlnet/install-tl.zip",
     "notes": "It is recommended to run the \"scoop hold texlive\" command to disable updates of texlive.",
-    "hash": "sha512:cb523831191c4378f33a5dda16359ea868129a49e13f53f6c5b6a988a96cb8bb6a69491bf24afaf244ebe4d2102ffccfd110e0017d4a7837bdf4493c22667995",
+    "hash": "sha512:53ffd7aaaa23b96aa84bec07eee6759301a50f0ece3420e9885060a33d95feef449e7ef2e8b22e0ba25e55b7221a6bc6e974d5abfc3f1d862488e2060db1e265",
     "installer": {
         "script": [
             "Write-Host 'Invoking TeX Live installer...' -ForegroundColor DarkCyan",
