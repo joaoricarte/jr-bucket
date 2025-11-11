@@ -35,8 +35,8 @@
         "cp \"$bucketdir\\..\\scripts\\tortoisegit\\tortoisegit-uninstall.reg\" \"$dir\""
     ],
     "bin": [
-        "bin\\TortoiseGitUDiff.exe",
-        "bin\\TortoisePlink.exe"
+        "bin\\TortoisePlink.exe",
+        "bin\\TortoiseGitUDiff.exe"
     ],
     "shortcuts": [
         [
