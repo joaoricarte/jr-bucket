@@ -6,7 +6,7 @@
     "notes": "If you want to get the latest development branch-based installer, please install `kdeconnect-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://fr2.rpmfind.net/linux/KDE/stable/release-service/25.08.3/windows/kdeconnect-kde-windows-$lib.exe",
+            "url": "https://fr2.rpmfind.net/linux/KDE/stable/release-service/25.08.3/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe",
             "hash": "046597f22fabdef3ee0a3f5d1a85fbbdf9c5763875902994f51799e6f7844df1"
         }
     },
@@ -28,12 +28,12 @@
     ],
     "checkver": {
         "url": "https://kdeconnect.kde.org/download.html",
-        "regex": "release-service/(?<version>[\\d.]+)/windows/kdeconnect-kde-windows-(?<lib>.*)\\.exe"
+        "regex": "release-service/(?<version>[\\d.]+)/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://fr2.rpmfind.net/linux/KDE/stable/release-service/$version/windows/kdeconnect-kde-windows-$lib.exe",
+                "url": "https://fr2.rpmfind.net/linux/KDE/stable/release-service/$version/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe",
                 "hash": {
                     "url": "https://apps.kde.org/kdeconnect",
                     "regex": "sha256:</strong> $sha256</div>"
