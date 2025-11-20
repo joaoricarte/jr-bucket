@@ -6,15 +6,10 @@
     "notes": "If you want to get the latest development branch-based installer, please install `kdeconnect-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://fr2.rpmfind.net/linux/KDE/stable/release-service/25.08.3/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe",
-            "hash": "164d3f93cda5275c07528866d019bab754909b3056aef10882343480211c7f7b"
+            "url": "https://fr2.rpmfind.net/linux/KDE/stable/release-service/25.08.3/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.7z",
+            "hash": "dc2b5e96351d5bd2bb8d15152a039225a6b7068c432c1c37f13250945aa3de31"
         }
     },
-    "pre_install": [
-        "Remove-Item \"$dir\\*\" -Exclude kdeconnect-*.7z -Recurse",
-        "Expand-7ZipArchive \"$dir\\kdeconnect-*.7z\" \"$dir\"",
-        "Remove-Item \"$dir\\kdeconnect-*.7z\""
-    ],
     "bin": "bin\\kdeconnect-cli.exe",
     "shortcuts": [
         [
@@ -33,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://fr2.rpmfind.net/linux/KDE/stable/release-service/$version/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe"
+                "url": "https://fr2.rpmfind.net/linux/KDE/stable/release-service/$version/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.7z"
             }
         }
     }
