@@ -1,5 +1,5 @@
 {
-    "version": "25.12-5778",
+    "version": "25.12.1-5778",
     "description": "Communications and data transfer between devices over local networks",
     "homepage": "https://kdeconnect.kde.org/",
     "license": "GPL-3.0-or-later",
@@ -23,13 +23,13 @@
     ],
     "checkver": {
         "url": "https://kdeconnect.kde.org/download.html",
-        "regex": "release-service/([\\d.]+)/windows/kdeconnect-kde-release_([\\d.-]+)-windows-cl-msvc2022-x86_64",
-        "replace": "${2}"
+        "regex": "release-service/([\\d.]+)/windows/kdeconnect-kde-release_([\\d.]+)-([\\d]+)-windows-cl-msvc2022-x86_64",
+        "replace": "${1}-${3}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/stable/release-service/$match1/windows/kdeconnect-kde-release_$match2-windows-cl-msvc2022-x86_64.7z"
+                "url": "https://download.kde.org/stable/release-service/$match1/windows/kdeconnect-kde-release_$match2-$match3-windows-cl-msvc2022-x86_64.7z"
             }
         }
     }
