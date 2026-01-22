@@ -23,12 +23,12 @@
     ],
     "checkver": {
         "url": "https://kdeconnect.kde.org/download.html",
-        "regex": "release-service/(?<version>[\\d.-]+)/windows/kdeconnect-kde-release"
+        "regex": "release-service/(?<version>[\\d.-]+)/windows/kdeconnect-kde-release_(?<detailedversion>[\\d.-]+)-windows-cl-msvc2022-x86_64"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/stable/release-service/$version/windows/kdeconnect-kde-release_$version-windows-cl-msvc2022-x86_64.7z"
+                "url": "https://download.kde.org/stable/release-service/$version/windows/kdeconnect-kde-release_$detailedversion-windows-cl-msvc2022-x86_64.7z"
             }
         }
     }
