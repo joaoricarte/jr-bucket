@@ -3,7 +3,12 @@
     "description": "Eject removable media",
     "homepage": "https://quickandeasysoftware.net/software/usb-disk-ejector",
     "license": "GPL-2.0",
-    "bin": "USB_Disk_Eject.exe",
+    "bin": [
+        [
+            "USB_Disk_Eject.exe",
+            "USBDiskEject"
+        ]
+    ],
     "shortcuts": [
         [
             "USB_Disk_Eject.exe",
