@@ -1,22 +1,18 @@
 {
-    "homepage": "https://freefilesync.org/",
-    "version": "14.4",
+    "version": "14.7",
+    "description": "FreeFileSync. Folder comparison and synchronization",
+    "homepage": "https://freefilesync.org",
     "license": {
-        "identifier": "GPL-3.0-only"
+        "identifier": "Freeware",
+        "url": "https://freefilesync.org/faq.php#commercial-usage"
     },
-    "description": "FreeFileSync is a folder comparison and synchronization software that creates and manages backup copies of all your important files.",
-    "url": "https://freefilesync.org/download/FreeFileSync_14.4_Windows_Setup.exe",
-    "hash": "d35a8ffba01d8c71e3136bf17e71d345e3f326a95d0354d054fc8eac80418279",
-    "innosetup": true,
-    "pre_install": [
-        "New-Item \"$dir\\Install.dat\" -ItemType File ",
-        "$myHeader = 0x5a, 0x8e, 0xc3, 0xf8, 0x2d, 0x4c, 0x8a, 0x83, 0x54, 0x88, 0xd3, 0xa0, 0xf1, 0xea, 0x58, 0x66, 0x9f, 0x26, 0x23, 0x6c, 0xb0, 0xba, 0xa9, 0x73, 0x37, 0x36, 0x9f, 0xd3, 0x8d, 0x8d",
-        "Set-Content -Path \"$dir\\Install.dat\" -Value $myHeader -AsByteStream"
-    ],
-    "bin": [
-        "FreeFileSync.exe",
-        "RealTimeSync.exe"
-    ],
+    "url": "https://freefilesync.org/download/FreeFileSync_14.7_Windows_Setup.exe",
+    "hash": "6ac241dda9797997e5099ef294fbaf92061ee11694097644db70a6416c6daa47",
+    "notes": "Need interaction.",
+    "installer": {
+        "keep": false,
+        "script": "Start-Process -FilePath $dir\\FreeFileSync*Windows_Setup.exe -Wait"
+    },
     "shortcuts": [
         [
             "FreeFileSync.exe",
@@ -27,5 +23,10 @@
             "RealTimeSync"
         ]
     ],
-    "notes": "You will see an error the first time you run the app. Close the app, and then re-open it."
-}
+    "checkver": {
+        "url": "https://freefilesync.org/download.php",
+        "regex": "FreeFileSync ([\\d.]+) Windows"
+    },
+    "autoupdate": {
+        "url": "https://freefilesync.org/download/FreeFileSync_$version_Windows_Setup.exe"
+    }
