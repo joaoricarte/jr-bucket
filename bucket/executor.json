@@ -1,17 +1,17 @@
 {
-    "version": "2.2.5",
+    "version": "2.2.7",
     "description": "A multi purpose launcher and more advanced and customizable freeware windows run replacement and more...",
     "homepage": "https://github.com/executordk/executor-community",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/executordk/executor-community/releases/download/v2.2.5/Executor_v2.2.5_64bit.zip",
-            "hash": "dc5883905d96ea0c8c1ccbfebb2734bf1d4ef11940fa363035425f206bb73a73",
+            "url": "https://github.com/executordk/executor-community/releases/download/v2.2.7/Executor_v2.2.7_64bit.zip",
+            "hash": "ec3f7565ff1813fab920fec8588ffb2f174e1a43bdd26d90a3e78ac6e66523f4",
             "extract_dir": "Executor64bit"
         },
         "32bit": {
-            "url": "https://github.com/executordk/executor-community/releases/download/v2.2.5/Executor_v2.2.5_32bit.zip",
-            "hash": "e0d8148f4a119ffdcfc2e57b8ed1467ff075254cd4f3992290d82325d146bda1",
+            "url": "https://github.com/executordk/executor-community/releases/download/v2.2.7/Executor_v2.2.7_32bit.zip",
+            "hash": "0505702f34682b8a83929897c8e50fc0b2996d2797fcb09b774a965065a4991f",
             "extract_dir": "Executor32bit"
         }
     },
