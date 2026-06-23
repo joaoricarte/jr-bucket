@@ -1,10 +1,10 @@
 {
-    "version": "2.8.3.70995",
+    "version": "2.9.1.71006",
     "description": "Kindle for PC",
     "homepage": "https://amazon.com/kindleapps",
     "license": "Proprietary",
     "url": "https://amazon.com/kindlepcdownload#/dl.7z",
-    "hash": "e5bda18ad4d57999de18372c94416c99bf85c7183d99ba52b2982df8fbe119e0",
+    "hash": "8e3bff714de9a8e3cad0f8072e3150df0d419e4a08b54f9ef91bcded7c2ef4ef",
     "shortcuts": [
         [
             "Kindle.exe",
