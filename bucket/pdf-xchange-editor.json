@@ -1,5 +1,5 @@
 {
-    "version": "10.8.5.410",
+    "version": "11.0.1.0",
     "description": "A small, fast, and feature-rich PDF viewer/editor.",
     "homepage": "https://www.pdf-xchange.com/product/pdf-xchange-editor",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.pdf-xchange.com/10.8.5.410/PDFXEdit10_Portable_x64.zip",
-            "hash": "88ee00a55c7d28a81c025c9211f16c3cc4b5bf80709a48a59dd386cb28a6125d"
+            "url": "https://downloads.pdf-xchange.com/11.0.1.0/PXCEditor11_Portable_x64.zip",
+            "hash": "4195b2516512bbe9298272bd1fca8c8d5f546c5d21ff898ced992c338cc05049"
         },
         "32bit": {
-            "url": "https://downloads.pdf-xchange.com/10.8.5.410/PDFXEdit10_Portable_x86.zip",
-            "hash": "8915b80bc5fc9200c6aeaee8c1a8a066e435df29cf3495fa8db3a8794c4a62e7"
+            "url": "https://downloads.pdf-xchange.com/11.0.1.0/PXCEditor11_Portable_x86.zip",
+            "hash": "8f0428a66b1bca05b95fa5096b35e68543a925eb0cdd9d5d240d755141c9a569"
         }
     },
     "pre_install": [
@@ -53,10 +53,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.pdf-xchange.com/$version/PDFXEdit10_Portable_x64.zip"
+                "url": "https://downloads.pdf-xchange.com/$version/PXCEditor11_Portable_x64.zip"
             },
             "32bit": {
-                "url": "https://downloads.pdf-xchange.com/$version/PDFXEdit10_Portable_x86.zip"
+                "url": "https://downloads.pdf-xchange.com/$version/PXCEditor11_Portable_x86.zip"
             }
         }
     }
