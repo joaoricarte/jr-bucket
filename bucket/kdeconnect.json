@@ -6,7 +6,7 @@
     "notes": "If you want to get the latest development branch-based installer, please install `kdeconnect-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/stable/release-service/26.04.2/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe",
+            "url": "https://download.kde.org/stable/release-service/26.04.2/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.7z",
             "hash": "35717dec80f155ad9143961921493f2764b3d185060aed403e3603dab536f768"
         }
     },
@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/stable/release-service/$version/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe"
+                "url": "https://download.kde.org/stable/release-service/$version/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.7z"
             }
         }
     }
