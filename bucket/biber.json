@@ -1,5 +1,5 @@
 {
-    "version": "2.22",
+    "version": "2.21",
     "description": "Biber is a BibTeX replacement for users of biblatex, with full Unicode support.",
     "license": "Artistic-2.0",
     "homepage": "https://github.com/plk/biber",
