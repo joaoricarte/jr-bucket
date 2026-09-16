@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "url": "https://kdeconnect.kde.org/download.html",
-        "regex": "release-service/([\\d.]+)/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64",
+        "regex": "release-service/([\\d.]+)/windows/kdeconnect",
         "replace": "${1}"
     },
     "autoupdate": {
