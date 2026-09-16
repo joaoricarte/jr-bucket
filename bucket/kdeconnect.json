@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.kde.org/stable/release-service/$version/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.7z"
+                "url": "https://download.kde.org/stable/release-service/$version/windows/kdeconnect-kde-$majorversion.$minorversion-windows-cl-msvc2022-x86_64.7z"
             }
         }
     }
