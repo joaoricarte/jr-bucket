@@ -16,7 +16,7 @@
     ],
     "checkver": {
         "url": "https://www.opencascade.com/products/cad-assistant/",
-        "regex": "cad_assistant_([\\d.-]+)_([\\d.-]+)_win64.zip",
+        "regex": "cad_assistant_([\\d.]+)_([\\d-]+)_win64.zip",
         "replace": "${1}_${2}"
     },
     "autoupdate": {
