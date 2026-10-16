@@ -1,12 +1,12 @@
 {
     "homepage": "https://gitlab.com/scilab/scilab/",
     "description": "Open source software for numerical computation",
-    "version": "2026.1.0",
+    "version": "2027.0.0",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://www.scilab.org/download/2026.1.0/scilab-2026.1.0.bin.x64.exe",
-            "hash": "832b00d67da4d340025782165c0a71cbd03d1942f29a224264344f8f2e51cd36"
+            "url": "https://www.scilab.org/download/2027.0.0/scilab-2027.0.0.bin.x64.exe",
+            "hash": "08547daa285c2f129b0da8d4beaa8952d308e1314f2b95fc61d27fdad08a12af"
         }
     },
     "installer": {
