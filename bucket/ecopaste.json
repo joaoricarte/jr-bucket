@@ -5,26 +5,15 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/EcoPasteHub/EcoPaste/releases/download/v1.1.0/EcoPaste_1.1.0_x64-setup.exe",
+            "url": "https://github.com/EcoPasteHub/EcoPaste/releases/download/v1.1.0/EcoPaste_1.1.0_x64-setup.exe#/dl.7z",
             "hash": "8a437d9f2cd960184942e0b1a2d1063566501928ead07cf82bc0959da534b5bf"
         }
     },
-    "installer": {
-        "script": [
-            "$installer = \"$dir\\EcoPaste_$($version)_x64-setup.exe\"",
-            "Start-Process -FilePath $installer -ArgumentList \"/S /D=$dir\\app\" -Wait",
-            "Remove-Item $installer -Force"
-        ]
-    },
-    "uninstaller": {
-        "script": [
-            "Get-Process -Name 'EcoPaste', 'eco-paste' -ErrorAction SilentlyContinue | Stop-Process -Force",
-            "Start-Process -FilePath \"$dir\\app\\uninstall.exe\" -ArgumentList '/S' -Wait"
-        ]
-    },
+    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Recurse -Force -ErrorAction SilentlyContinue",
+    "bin": "EcoPaste.exe",
     "shortcuts": [
         [
-            "app\\EcoPaste.exe",
+            "EcoPaste.exe",
             "EcoPaste"
         ]
     ],
@@ -34,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/EcoPasteHub/EcoPaste/releases/download/v$version/EcoPaste_$version_x64-setup.exe"
+                "url": "https://github.com/EcoPasteHub/EcoPaste/releases/download/v$version/EcoPaste_$version_x64-setup.exe#/dl.7z"
             }
         }
     }
