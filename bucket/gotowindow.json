@@ -3,8 +3,8 @@
     "description": "Keyboard-driven alt-tab alternative: press Win+Tab+Tab, type part of a window title or process name, press Enter",
     "homepage": "https://github.com/christianrondeau/GoToWindow",
     "license": "MIT",
-    "url": "https://github.com/christianrondeau/GoToWindow/releases/download/v0.7.4/GoToWindow-0.7.4-full.zip",
-    "hash": "f8aa1b560ee0d09740dbffc5e98583fb4188ed0384b8c9eae56dd562963da812",
+    "url": "https://github.com/christianrondeau/GoToWindow/releases/download/v0.7.4/GoToWindow.0.7.4.zip",
+    "hash": "836fcd16d56ebfdb3c1e8bf9d08986aef720de21f07998e532dc6d2c88c00a16",
     "extract_dir": "lib\\net45",
     "shortcuts": [
         [
@@ -22,6 +22,6 @@
         "regex": "releases/tag/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/christianrondeau/GoToWindow/releases/download/v$version/GoToWindow-$version-full.zip"
+        "url": "https://github.com/christianrondeau/GoToWindow/releases/download/v$version/GoToWindow.$version.zip"
     }
 }
