@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.ntwind.com/download/AltTabTer_6.8-setup.exe#/dl.zip",
+            "url": "https://www.ntwind.com/download/AltTabTer_6.8-setup.exe#/dl.7z",
             "hash": "dce0aaf78e7b9a908f0a1221a6decdab90c46f2fb28fbc58bb369705195693dd"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.ntwind.com/download/AltTabTer_$version-setup.exe#/dl.zip"
+                "url": "https://www.ntwind.com/download/AltTabTer_$version-setup.exe#/dl.7z"
             }
         }
     }
