@@ -1,0 +1,27 @@
+{
+    "version": "0.7.4",
+    "description": "Keyboard-driven alt-tab alternative: press Win+Tab+Tab, type part of a window title or process name, press Enter",
+    "homepage": "https://github.com/christianrondeau/GoToWindow",
+    "license": "MIT",
+    "url": "https://github.com/christianrondeau/GoToWindow/releases/download/v0.7.4/GoToWindow-0.7.4-full.zip",
+    "hash": "f8aa1b560ee0d09740dbffc5e98583fb4188ed0384b8c9eae56dd562963da812",
+    "extract_dir": "lib\\net45",
+    "shortcuts": [
+        [
+            "GoToWindow.exe",
+            "GoToWindow"
+        ]
+    ],
+    "notes": [
+        "Launch GoToWindow once; it then listens for Win+Tab+Tab.",
+        "To switch to windows of elevated (admin) apps, GoToWindow must also run elevated.",
+        "To start with Windows, put a shortcut to GoToWindow.exe in your Startup folder."
+    ],
+    "checkver": {
+        "url": "https://github.com/christianrondeau/GoToWindow/releases",
+        "regex": "releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/christianrondeau/GoToWindow/releases/download/v$version/GoToWindow-$version-full.zip"
+    }
+}
